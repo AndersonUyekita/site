@@ -1,5 +1,5 @@
 ---
-title: "AH Uyekita"
+title: "Anderson Hitoshi Uyekita"
 output:
   html_document:
     toc: true
@@ -62,7 +62,6 @@ Hence, moving to an abroad country could introduce new knowledge in my work life
 ****
 
 # <i class="fas fa-briefcase"></i> Work Experience
-
 
 <div align="right">
 ## 5&agrave;sec  
@@ -182,6 +181,8 @@ As a consequence, my team and I have had 5 (five) papers published in the CIRED'
 
 I will point out the main fields of my activities in this job:
 
+**Activities:**
+
 * Developing a DMS's tool to aid the DSO's decision-making easier in case of programmable outages or fault.
 * Developing a DSA's tool which aids the operator's decision making. This tool outcome provides an optimized place to install Capacitor Banks or/and Voltage Regulator.
 * Power Flow enhancement by the use of a Load modelling and customer interviews.
@@ -189,14 +190,31 @@ I will point out the main fields of my activities in this job:
 * A proposition of an alternative method of technical losses calculation based on an evaluation of the Regulatory Agency method results.
 * Creating an Action Plan to Joinville Agency (15 substations and 82 feeders) based on Network Data Analysis, Market Analysis, Forecasting growth taxes (82 feeders), Technical Economic Study, and Reliability Study.
 
-**Responsibilities**
+**Responsibilities:**
 
-*
+* Mathematical Modelling: I was in charge of finding out a way to translate a real-life problem into a mathematical problem (Chinese Postman Problem, Set Covering, Assignment Problem, Knapsack Problem, etc.).
+
+* Problem-Solving: After defining the mathematical problem, I have to investigate which variables are available, then set a strategy to solve it using algorithms.
+
+* Research: My task was to search by PhD thesis, Master Dissertation, or Books which could help my team and me to find out a solution proposition, mathematical modelling, algorithms, or a new technique.
+
+* New Projects Proposal: Keeping updated from new technologies of Power Distribution and overseeing new clients' demands to future proposals.
+
+* Consultancy: Elaboration of Technical Studies (Reliability, Assets, Power Quality, Market, etc.) and Creating Action Plans.
+
+* Regulatory Affairs: Application of the Regulatory method of technical losses.
+
+* Prototyping: Testing the model and algorithms chosen to find any inconsistencies before the Development step. Sometimes, I also have programmed this prototype in R.
+
+* Technical Report: Writing reports to the clients with an explanation of methods, algorithms, user manual, data analysis, and outcomes from the R&D projects. Also, applying paper to conferences.
+
+* Economic Analysis: Evaluation of any action on the grid to measure the trade-off between Investment/Action and Gains (Reliability, Power Quality, etc.).
+
+* Project Management: Keeping the expenses under control, deliverables on time, client contact to receive its feedback, and assisting the Development team.
 
 </div>
   
 </div>
-
 
 ****
 
@@ -394,6 +412,10 @@ I was a volunteer, and I worked 20 hours a week.
 
 Best Master Franchise Starter
 
+***
+
+# <i class="far fa-newspaper"></i> Publications
+
 Medium voltage planning tool based on utilities best practices and multi-objective optimization
 
 Losses Forecast using Econometric Models
@@ -408,7 +430,7 @@ Optimized switching using heuristic algorithm to support the restoration of dist
 
 
 
-
+***
 
 # <i class="fas fa-plus-circle"></i>Interests
 
