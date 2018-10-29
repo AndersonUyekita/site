@@ -132,7 +132,7 @@ Jun 2016 - Oct 2016
   
 <div class = "col-md-8">
 
-Operations Manager
+<div class="t20">Operations Manager</div>
 
 My objective in the store's beginning was to compound a good team as soon as possible. As an outcome of my commitment, I have assumed the franchise operations management, some HR's activities, and a close relationship with the accountant.
 
@@ -170,7 +170,7 @@ Jan 2016 - Jun 2016
   
 <div class = "col-md-8">
 
-Project Manager
+<div class="t20">Project Manager</div>
 
 In this full-time job, I was the person in charge to introduce the 5àsec brand in Paraguay. My activities in this first moment were to oversee the works premises located in a Shopping Mall and to ensure the store's specifications preconized by the Franchise. Whilst the construction, I had been training in Madrid and Genebra stores to become the specialist in dry cleaning and laundry for 1-month.
 
@@ -216,7 +216,7 @@ Mar 2009 - Jan 2016
   
 <div class = "col-md-8">
 
-Electrical Engineer
+<div class="t20">Electrical Engineer</div>
 
 As an Electrical Engineer, I have worked performing researcher and applications in R&D Projects. Due to the nature of my job, all my activities relied on learning new methods, approaches, algorithms, optimisation, statistics, mathematical modelling, etc., and later how to apply it in engineer solutions usually delivering software and technical reports.
 
