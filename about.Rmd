@@ -1,14 +1,6 @@
 ---
 title: "About This Website"
-output:
-  html_document:
-    theme: spacelab
-    highlight: tango
-    toc: true
-    toc_float: true
-    collapse: true
-    smooth_scroll: true
-    number_sections: false
+output: html_document
 ---
        
 More about this website.
