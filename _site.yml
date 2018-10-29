@@ -1,0 +1,9 @@
+name: "AHU"
+output_dir: "."
+navbar:
+  title: "Hello World"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
