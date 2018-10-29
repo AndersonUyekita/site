@@ -56,7 +56,7 @@ Hence, moving to an abroad country could introduce new knowledge in my work life
 
 
 <div align="right">
-## 5&agrave;sec
+## 5&agrave;sec  
 </div>
 
 
@@ -65,7 +65,8 @@ Hence, moving to an abroad country could introduce new knowledge in my work life
 <div class = "col-md-4">
 <div class = "t20">5&agrave;sec  </div>
 <div class = "t18">Asunci&oacute;n, Paraguay  </div>
-Oct 2016 - Jan 2018
+Oct 2016 - Jan 2018  
+<a href="http://www.5asec.com.py" target="blank">http://www.5asec.com.py</a>
 
 </div>
   
@@ -190,16 +191,16 @@ After my formation, I have trained all my team and installed the machinery to be
 
 
 <div align="right">
-## Daimon
+## Daimon  
 </div>
 
 <div class = "row">
   
 <div class = "col-md-4">
-Daimon Engenharia e Sistemas  
+<div class="t20">Daimon Engenharia e Sistemas  </div>
 S&atilde;o Paulo, Brazil  
-Mar 2009 - Jan 2016
-
+Mar 2009 - Jan 2016  
+<a href="http://www.daimon.com.br/usa.html" target="blank">http://www.daimon.com.br</a>
 </div>
   
 <div class = "col-md-8">
@@ -241,15 +242,18 @@ I will point out the main fields of my activities in this job:
 <div class = "row">
   
 <div class = "col-md-4">
-Polytechnic School of the University of S&atilde;o Paulo  
-S&atilde;o Paulo, Brazil  
+<div class="t20">Polytechnic School of the University of S&atilde;o Paulo  </div>
+<div class="t18">S&atilde;o Paulo, Brazil  </div>
 2004 - 2011
+
+<a href="https://www.poli.usp.br" target="blank">https://www.poli.usp.br</a>
+
 
 </div>
   
 <div class = "col-md-8">
 
-Bachelor in Electrical Engineer
+<div class="t20">Bachelor in Electrical Engineer  </div>
 
 * My graduation was focused in Power Systems with major in Electric
 Distribution Systems.
@@ -307,18 +311,20 @@ Distribution Systems.
 
 ****
 
-# <i class="fas fa-people-carry"></i> Volunteer Experience
+# <i class="fas fa-people-carry"></i> Volunteer Activities
 
 <div class = "row">
   
 <div class = "col-md-4">
-Volunteer
-Mogi das Cruzes, Brazil
+<div class="t20">Volunteer  </div>
+<div class="t18">Mogi das Cruzes, Brazil  </div>
 Apr 2018
 
 </div>
   
 <div class = "col-md-8">
+
+<div class="t20">Akimatsuri 2018  </div>
 
 I was a volunteer at an event hosted by the Japanese Community from Mogi das Cruzes called Akimatsuri. I have aided the elders for 4 days (each day for 4 hours).
 
@@ -332,14 +338,14 @@ https://www.akimatsuri.com.br
 <div class = "row">
   
 <div class = "col-md-4">
-Volunteer
-Mogi das Cruzes, Brazil
+<div class="t20">Volunteer  </div>
+<div class="t18">Mogi das Cruzes, Brazil  </div>
 Jan 2006 - Dec 2007
 
 </div>
   
 <div class = "col-md-8">
-Electrical Engineering Academic Center
+<div class="t20">Electrical Engineering Academic Center</div>
 
 I was a volunteer, and I worked 20 hours a week.
 
