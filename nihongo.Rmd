@@ -1,6 +1,7 @@
 ---
-title: "Nihongo"
-author: "Anderson Uyekita"
+title: "日本語　クラス"
+subtitle: "まとめ"
+author: "植北　ひとし"
 date: "29 de outubro de 2018"
 output: html_document
 ---
@@ -8,6 +9,68 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+
+<div class = "row">
+  <div class = "col-md-6">
+  い-ADJ
+
+  ひろい/largo  
+  せまい/amplo  
+  たかい/alto ou caro  
+  ひくい/  
+  あたらしい/novo  
+  ふるい/velho  
+  あさい  
+  ふかい    
+  あたたかい  
+  すずしい   
+
+  </div>
+  <div class = "col-md-6">
+  な-ADJ
+
+　にぎやか　ひすか  
+　しんせつ  
+　べんり  
+　じょうず  
+　ハンサム    
+　きれい  
+　ゆうめい   
+　きらい  
+
+  </div>
+</div>
+
+
+
+<div class = "row">
+  <div class = "col-md-6">
+  い-ADJ
+
+　さむいです。
+　さむくありません。
+　さむかったです。
+　さむくありませんでした。
+
+  </div>
+  <div class = "col-md-6">
+  な-ADJ
+
+　きれいです。
+　きれいですはありません。
+　きれいでした。　きれいではありませんでした。
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
 
 This is my test to write in japanese in R.
 
