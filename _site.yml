@@ -1,7 +1,7 @@
 name: "AHU"
 output_dir: "."
 navbar:
-  title: "Hello World"
+  title: "AH Uyekita"
   left:
     - text: "Home"
       href: index.html
