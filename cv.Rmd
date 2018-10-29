@@ -1,5 +1,5 @@
 ---
-title: "Anderson Hitoshi Uyekita"
+title: "AH Uyekita"
 output:
   html_document:
     toc: true
@@ -41,6 +41,9 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <i class="fas fa-map-marker-alt"></i>  Rua dos Buritis, 437, Ap 14, Jabaquara, S&atilde;o Paulo, Brazil  
 <i class="fas fa-envelope"></i>  anderson.uyekita[at]gmail.com  
 <i class="fab fa-whatsapp"></i>  + 55 11 9886 4470  
+<i class="fab fa-github"></i> http://github.com/AndersonUyekita  
+<i class="fab fa-linkedin"></i> https://www.linkedin.com/in/andersonuyekita/  
+
 
 ****
 
@@ -214,8 +217,14 @@ I will point out the main fields of my activities in this job:
 
 <div class="t20">Bachelor in Electrical Engineer  </div>
 
-* My graduation was focused in Power Systems with major in Electric
-Distribution Systems.
+* Major in Electric Distribution Systems.
+
+Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Prototype.  
+
+<ul class="nav nav-pills">
+  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/02-TF/TF1" target="blank">Read TF1</a></li>
+  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/02-TF/TF2" target="blank">Read TF2</a></li>
+</ul>
 
 </div>
   
@@ -383,8 +392,30 @@ I was a volunteer, and I worked 20 hours a week.
 
 # <i class="fas fa-trophy"></i> Achievements
 
+Best Master Franchise Starter
+
+Medium voltage planning tool based on utilities best practices and multi-objective optimization
+
+Losses Forecast using Econometric Models
+
+MV planning approach using time series, billing data of medium voltage consumers and substation feeders metering
+
+Technical Losses Calculation using Simplified Models for Regulatory Purposes
+
+Load modeling based on field survey of electric appliances ownership and consumption habits
+
+Optimized switching using heuristic algorithm to support the restoration of distribution systems
+
+
+
 
 
 # <i class="fas fa-plus-circle"></i>Interests
 
-
+* Well-balanced Lifestyle
+* Smart-grid: I want to learn more about it.
+* Distributed Generation and Micro-grid
+* Management and Accounting
+* Learn Japanese: To keep my ancestry culture.
+* Next Book: Mindset - The New Psychology of Success (2006, Carol Dweck)
+* I want to finish the Data Science Specialization on Coursera
