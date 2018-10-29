@@ -10,6 +10,11 @@ div.t20 {
     font-size: 20px;
 }
 
+div.t20_2 {
+    font-size: 20px;
+}
+
+
 div.t18 {
     font-size: 18px;
 }
@@ -28,6 +33,8 @@ h1, .h1, h2, .h2, h3, .h3 {
     margin-bottom: 10px;
 }
 
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+
 </style>
 
 
@@ -45,12 +52,11 @@ Now, I am keen to have a bit of challenge, and also to develop a solid career in
 
 As a researcher, I have learned and taken this principle into my life:
 
-In some algorithms, the mutation operator is essential to introduce a new gene variety, which is crucial to surpass difficulties in a homogeneous population.
+> In some algorithms, the mutation operator is essential to introduce a new gene variety, which is crucial to surpass difficulties in a homogeneous population.
 
 Hence, moving to an abroad country could introduce new knowledge in my work life, and I also could share different techniques from my past work in my future workplace, an application of the Mutation Operator in our lives.
 
 ****
-
 
 # <i class="fas fa-briefcase"></i> Work Experience
 
@@ -58,7 +64,6 @@ Hence, moving to an abroad country could introduce new knowledge in my work life
 <div align="right">
 ## 5&agrave;sec  
 </div>
-
 
 <div class = "row">
   
@@ -92,23 +97,9 @@ As a result of my decisions, the EBITDA Margin raises from 12,24% in  2016 and r
 * Legal Issues: Business License, Environmental License, Municipal Taxes, etc.
 * Technical Support and Assistance.
 
-
 </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class = "row">
   
@@ -139,15 +130,6 @@ etc.
   
 </div>
 
-
-
-
-
-
-
-
-
-
 <div class = "row">
   
 <div class = "col-md-4">
@@ -174,22 +156,6 @@ After my formation, I have trained all my team and installed the machinery to be
   
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div align="right">
 ## Daimon  
 </div>
@@ -197,7 +163,7 @@ After my formation, I have trained all my team and installed the machinery to be
 <div class = "row">
   
 <div class = "col-md-4">
-<div class="t20">Daimon Engenharia e Sistemas  </div>
+<div class="t20">Daimon  </div>
 S&atilde;o Paulo, Brazil  
 Mar 2009 - Jan 2016  
 <a href="http://www.daimon.com.br/usa.html" target="blank">http://www.daimon.com.br</a>
@@ -231,12 +197,6 @@ I will point out the main fields of my activities in this job:
 
 ****
 
-
-
-
-
-
-
 # <i class="fas fa-graduation-cap"></i> Education
 
 <div class = "row">
@@ -247,7 +207,6 @@ I will point out the main fields of my activities in this job:
 2004 - 2011
 
 <a href="https://www.poli.usp.br" target="blank">https://www.poli.usp.br</a>
-
 
 </div>
   
@@ -263,6 +222,64 @@ Distribution Systems.
 </div>
 
 
+##### {.tabset}
+
+###### Courses
+
+<div class = "row">
+  
+<div class = "col-md-4">
+<div class="t20">Courses  </div>
+<div class="t18">S&atilde;o Paulo, Brazil  </div>
+2009 - 2016
+
+</div>
+
+<div class = "col-md-8">
+
+* <div class="t20_2">B3</div>
+       * <div class="t20_2">An&aacute;lise T&eacute;cnica para o Mercado de A&ccedil;&otilde;es</div>
+       * <div class="t20_2">Introdu&ccedil;&atilde;o ao Mercado de Renda Fixa</div>
+       * <div class="t20_2">Mercado de A&ccedil;&otilde;es</div>
+       * <a href="http://www.b3.com.br/" target="blank">http://www.b3.com.br/en_us/</a>  
+<br>
+* <div class="t20_2">Funda&ccedil;&atilde;o Instituto de Pesquisas Econ&ocirc;micas - Fipe</div>
+       * <div class="t18">An&aacute;lise Econ&ocirc;mica, Planejamento e Gerenciamento de Projetos</div>
+       * <div class="t18">An&aacute;lise de Investimentos - T&eacute;cnicas B&aacute;sicas</div>
+       * <div class="t18">Econometria Aplicada</div>
+       * <div class="t18">Planejamento e Gest&atilde;o de Cidades Inteligentes e Sustent&aacute;veis</div>
+       * <a href="http://www.fipe.org.br" target="blank">http://www.fipe.org.br</a>
+
+</div>
+  
+</div>
+
+###### MOOCs
+
+
+<div class = "row">
+  
+<div class = "col-md-4">
+<div class="t20">MOOCs  </div>
+<div class="t18">Coursera  </div>
+2009 - 2016
+
+</div>
+
+<div class = "col-md-8">
+
+* <div class="t20_2">Coursera</div>
+       * <div class="t18">Python</div>
+       * <a href="http://www.fipe.org.br" target="blank">http://www.fipe.org.br</a>
+
+
+</div>
+  
+</div>
+
+
+
+##### {.end}
 ****
 
 # <i class="fas fa-chart-bar"></i> Technical Skills
