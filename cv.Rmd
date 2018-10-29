@@ -43,7 +43,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 
 
-<i class="fas fa-map-marker-alt"></i>  Rua dos Buritis, 437, Ap 14, Jabaquara, São Paulo, Brazil  
+<i class="fas fa-map-marker-alt"></i>  Rua dos Buritis, 437, Ap 14, Jabaquara, Sao Paulo, Brazil  
 <i class="fas fa-envelope"></i>  anderson.uyekita[at]gmail.com  
 <i class="fab fa-whatsapp"></i>  + 55 11 9886 4470  
 
@@ -68,15 +68,15 @@ Hence, moving to an abroad country could introduce new knowledge in my work life
 
 
 <div align="right">
-## 5àsec
+## 5asec
 </div>
 
 
 <div class = "row">
   
 <div class = "col-md-4">
-<div class = "t20">5àsec  </div>
-<div class = "t18">Asunción, Paraguay  </div>
+<div class = "t20">5asec  </div>
+<div class = "t18">Asuncion, Paraguay  </div>
 Oct 2016 - Jan 2018
 
 </div>
@@ -85,13 +85,13 @@ Oct 2016 - Jan 2018
 
 <div class="t20">Gerente General</div>
 
-In this job position, I have assumed the management of a local company acquired by 5àsec, which was the owner of 7 dry cleaning store. I focused my efforts on these outlets because the original 5àsec store already had skilled employees to run the business.
+In this job position, I have assumed the management of a local company acquired by 5asec, which was the owner of 7 dry cleaning store. I focused my efforts on these outlets because the original 5asec store already had skilled employees to run the business.
 
 I have assessed these stores to create an analysis, which allowed me to study and discern how to proceed. I identified a low Gross Margin of 36%, due to an overstaffed payroll. So, I decided to downsize the staff to raise the company health.  As a result of this decision, I boosted the Gross Margin to 56,75%.
 
 Another problem was the unprofitable commercial points due to high rents, logistics, and overheads. For this reason, I also decided to downsize the stores' number, and the result of this action was an SG&A decreasing from 23,69% to 15,81%.
 
-As a result of my decisions, the EBITDA Margin raises from 12,24% in  2016 and reach 40,94% in 2017, even more, the revenue had increased 5,10% in this same period due to a well-trained staff. Consequently, I revamp 3 (three) stores and rebrand to 5àsec from this savings.
+As a result of my decisions, the EBITDA Margin raises from 12,24% in  2016 and reach 40,94% in 2017, even more, the revenue had increased 5,10% in this same period due to a well-trained staff. Consequently, I revamp 3 (three) stores and rebrand to 5asec from this savings.
 
 **Responsibilities**
 
@@ -124,8 +124,8 @@ As a result of my decisions, the EBITDA Margin raises from 12,24% in  2016 and r
 <div class = "row">
   
 <div class = "col-md-4">
-<div class = "t20">5àsec  </div>
-<div class = "t18">Asunción, Paraguay  </div>
+<div class = "t20">5asec  </div>
+<div class = "t18">Asuncion, Paraguay  </div>
 Jun 2016 - Oct 2016
 
 </div>
@@ -162,8 +162,8 @@ etc.
 <div class = "row">
   
 <div class = "col-md-4">
-<div class = "t20">5àsec  </div>
-<div class = "t18">Asunción, Paraguay  </div>
+<div class = "t20">5asec  </div>
+<div class = "t18">Asuncion, Paraguay  </div>
 Jan 2016 - Jun 2016
 
 </div>
@@ -172,7 +172,7 @@ Jan 2016 - Jun 2016
 
 <div class="t20">Project Manager</div>
 
-In this full-time job, I was the person in charge to introduce the 5àsec brand in Paraguay. My activities in this first moment were to oversee the works premises located in a Shopping Mall and to ensure the store's specifications preconized by the Franchise. Whilst the construction, I had been training in Madrid and Genebra stores to become the specialist in dry cleaning and laundry for 1-month.
+In this full-time job, I was the person in charge to introduce the 5asec brand in Paraguay. My activities in this first moment were to oversee the works premises located in a Shopping Mall and to ensure the store's specifications preconized by the Franchise. Whilst the construction, I had been training in Madrid and Genebra stores to become the specialist in dry cleaning and laundry for 1-month.
 
 After my formation, I have trained all my team and installed the machinery to be ready for the store roll-out (23 May 2016).
 
@@ -209,7 +209,7 @@ After my formation, I have trained all my team and installed the machinery to be
   
 <div class = "col-md-4">
 Daimon Engenharia e Sistemas  
-São Paulo, Brazil  
+Sao Paulo, Brazil  
 Mar 2009 - Jan 2016
 
 </div>
@@ -247,8 +247,8 @@ I will point out the main fields of my activities in this job:
 <div class = "row">
   
 <div class = "col-md-4">
-Polytechnic School of the University of São Paulo  
-São Paulo, Brazil  
+Polytechnic School of the University of Sao Paulo  
+Sao Paulo, Brazil  
 2004 - 2011
 
 </div>
@@ -299,9 +299,9 @@ Distribution Systems.
 
 # Personal Skills
 
-* Collaborative Mindset: In 5àsec, I have tried to put a skilled employees to mentor the newcomers, which developed empathy among team member, as a consequence, they start to share knowledge and arranging solutions. I also detected the leaders whom I promoted.
+* Collaborative Mindset: In 5asec, I have tried to put a skilled employees to mentor the newcomers, which developed empathy among team member, as a consequence, they start to share knowledge and arranging solutions. I also detected the leaders whom I promoted.
 
-* Commitment: The ownership mentality, responsibility, sense of belonging, personal involvement, and ethics are part of the commitment. When I applied it to 5àsec, I observed an increase in production. So I will encourage my team to do the same.
+* Commitment: The ownership mentality, responsibility, sense of belonging, personal involvement, and ethics are part of the commitment. When I applied it to 5asec, I observed an increase in production. So I will encourage my team to do the same.
 
 * Holistic Approach: I always keep in mind the decisions' consequences on the global view, because a myopic approach could hinder the problem's understood. For this reason, I investigate the problem through a broader horizon before any decision.
 
@@ -309,7 +309,7 @@ Distribution Systems.
 
 * Willingness to Learn: Based on my activities in R&D, I am used to learning by myself, that is why I usually enrol on Coursera and EdX courses. I also received the technical support training in Italy in June 2017.
 
-* Communication: As an engineer, I have presented technical papers in conferences, technical presentation (about methodologies, algorithms, etc.), and I have trained clients to use DSA and DMS software. I also worked at 5àsec stores on the counter as a receptionist.
+* Communication: As an engineer, I have presented technical papers in conferences, technical presentation (about methodologies, algorithms, etc.), and I have trained clients to use DSA and DMS software. I also worked at 5asec stores on the counter as a receptionist.
 
 ****
 
