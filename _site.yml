@@ -9,6 +9,13 @@ navbar:
       href: about.html
     - text: "Projects"
       href: projects.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/AndersonUyekita
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/andersonuyekita/
 output:
   html_document:
     theme: flatly
