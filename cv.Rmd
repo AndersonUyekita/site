@@ -6,21 +6,37 @@ output:
     toc_float: true
 ---
 <style>
-body {text-align: justify}
-</style>
-
-<style>
-div.a {
+div.t20 {
     font-size: 20px;
 }
 
-div.b {
-    font-size: large;
+div.t18 {
+    font-size: 18px;
 }
 
-div.c {
-    font-size: 150%;
+
+
+
+body {text-align: justify}
+
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 5px;
 }
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 15px;
+}
+
+
+.t20 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
 </style>
 
 
@@ -59,15 +75,15 @@ Hence, moving to an abroad country could introduce new knowledge in my work life
 <div class = "row">
   
 <div class = "col-md-4">
-<p style="font-size:20px">5àsec  </p>
-Asunción, Paraguay  
+<div class = "t20">5àsec  </div>
+<div class = "t18">Asunción, Paraguay  </div>
 Oct 2016 - Jan 2018
 
 </div>
   
 <div class = "col-md-8">
 
-<div class="a">Gerente General</div>
+<div class="t20">Gerente General</div>
 
 In this job position, I have assumed the management of a local company acquired by 5àsec, which was the owner of 7 dry cleaning store. I focused my efforts on these outlets because the original 5àsec store already had skilled employees to run the business.
 
@@ -108,8 +124,8 @@ As a result of my decisions, the EBITDA Margin raises from 12,24% in  2016 and r
 <div class = "row">
   
 <div class = "col-md-4">
-5àsec  
-Asunción, Paraguay  
+<div class = "t20">5àsec  </div>
+<div class = "t18">Asunción, Paraguay  </div>
 Jun 2016 - Oct 2016
 
 </div>
@@ -146,8 +162,8 @@ etc.
 <div class = "row">
   
 <div class = "col-md-4">
-5àsec  
-Asunción, Paraguay  
+<div class = "t20">5àsec  </div>
+<div class = "t18">Asunción, Paraguay  </div>
 Jan 2016 - Jun 2016
 
 </div>
