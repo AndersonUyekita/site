@@ -5,42 +5,95 @@ author: "植北　ひとし"
 date: "29 de outubro de 2018"
 output: html_document
 ---
+<head>
+<style>
+#tbl {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+#tbl td, #tbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
 
+#tbl tr:nth-child(even){background-color: #e6eeff;}
 
-<div class = "row">
-  <div class = "col-md-6">
-  い-ADJ
+#tbl tr:hover {background-color: #6699ff;}
 
-  ひろい/largo  
-  せまい/amplo  
-  たかい/alto ou caro  
-  ひくい/  
-  あたらしい/novo  
-  ふるい/velho  
-  あさい  
-  ふかい    
-  あたたかい  
-  すずしい   
+#tbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000066;
+    color: white;
+}
+</style>
+</head>
 
-  </div>
-  <div class = "col-md-6">
-  な-ADJ
+<body>
 
-　にぎやか　ひすか  
-　しんせつ  
-　べんり  
-　じょうず  
-　ハンサム    
-　きれい  
-　ゆうめい   
-　きらい  
-
-  </div>
+<div align="center">
+<table id="tbl" width="100%">
+  <tr>
+    <th>い-ADJ</th>
+    <th>な-ADJ</th>
+  </tr>
+  <tr>
+    <td>ひろい</td>
+    <td>にぎやか</td>
+  </tr>
+  <tr>
+    <td>せまい</td>
+    <td>ひすか</td>
+  </tr>
+  <tr>
+    <td>たかい</td>
+    <td>しんせつ</td>
+  </tr>
+  <tr>
+    <td>ひくい</td>
+    <td>べんり</td>
+  </tr>
+  <tr>
+    <td>あたらしい</td>
+    <td>じょうず</td>
+  </tr>
+  <tr>
+    <td>ふるい</td>
+    <td>ハンサム</td>
+  </tr>
+  <tr>
+    <td>あさい</td>
+    <td>きれい</td>
+  </tr>
+  <tr>
+    <td>ふかい</td>
+    <td>ゆうめい</td>
+  </tr>
+  <tr>
+    <td>あたたかい</td>
+    <td>きらい</td>
+  </tr>
+  <tr>
+    <td>すずしい</td>
+  </tr>
+</table>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -75,3 +128,6 @@ knitr::opts_chunk$set(echo = TRUE)
 This is my test to write in japanese in R.
 
 ぼくは　ひとし　です。
+
+
+</body>
