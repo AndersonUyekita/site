@@ -240,8 +240,8 @@ I will point out the main fields of my activities in this job:
 Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Prototype.  
 
 <ul class="nav nav-pills">
-  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/02-TF/TF1" target="blank">Read TF1</a></li>
-  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/02-TF/TF2" target="blank">Read TF2</a></li>
+  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/blob/master/02-TF/TF1.pdf" target="blank">Read TF1</a></li>
+  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/blob/master/02-TF/TF2.pdf" target="blank">Read TF2</a></li>
 </ul>
 
 </div>

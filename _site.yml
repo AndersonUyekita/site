@@ -9,9 +9,13 @@ navbar:
     - text: "About"
       href: about.html
       icon: fa-info
-    - text: "Projects"
-      href: projects.html
+    - text: "Portfolio"
+      href: portfolio.html
       icon: fa-gear
+      menu:
+        - text: "Project"
+          href: project.html
+          icon: fa-gear
     - text: "Curriculum Vitae"
       href: cv.html
       icon: fa-address-card

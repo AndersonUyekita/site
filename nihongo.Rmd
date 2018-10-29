@@ -1,0 +1,14 @@
+---
+title: "Nihongo"
+author: "Anderson Uyekita"
+date: "29 de outubro de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is my test to write in japanese in R.
+
+ぼくは　ひとし　です。
