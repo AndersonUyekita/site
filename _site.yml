@@ -5,10 +5,16 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+      icon: fa-home
     - text: "About"
       href: about.html
+      icon: fa-info
     - text: "Projects"
       href: projects.html
+      icon: fa-gear
+    - text: "Curriculum Vitae"
+      href: cv.html
+      icon: fa-address-card
   right:
     - icon: fa-envelope fa-lg
       href: anderson.uyekita@gmail.com

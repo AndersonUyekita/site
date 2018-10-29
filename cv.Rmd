@@ -1,0 +1,358 @@
+---
+title: "Anderson Hitoshi Uyekita"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+<style>
+body {text-align: justify}
+</style>
+
+<style>
+div.a {
+    font-size: 20px;
+}
+
+div.b {
+    font-size: large;
+}
+
+div.c {
+    font-size: 150%;
+}
+</style>
+
+
+
+
+
+<i class="fas fa-map-marker-alt"></i>  Rua dos Buritis, 437, Ap 14, Jabaquara, São Paulo, Brazil  
+<i class="fas fa-envelope"></i>  anderson.uyekita[at]gmail.com  
+<i class="fab fa-whatsapp"></i>  + 55 11 9886 4470  
+
+****
+
+# Personal Statement
+
+Since I had resigned my last job position as a General Manager, I decided to move to my parent's ranch, whereby I have enjoyed a great time becoming closest to my family, learning Japanese, aiding the local community, keeping contact with nature and slowing down my pace. After a sabbatical period of 10 months, I have redesigned my long-term personal objective: a well-balanced lifestyle.
+
+Now, I am keen to have a bit of challenge, and also to develop a solid career in an excellent company, open-minded, and with great potential to grow.
+
+As a researcher, I have learned and taken this principle into my life:
+
+In some algorithms, the mutation operator is essential to introduce a new gene variety, which is crucial to surpass difficulties in a homogeneous population.
+
+Hence, moving to an abroad country could introduce new knowledge in my work life, and I also could share different techniques from my past work in my future workplace, an application of the Mutation Operator in our lives.
+
+****
+
+
+# Work Experience
+
+
+<div align="right">
+## 5àsec
+</div>
+
+
+<div class = "row">
+  
+<div class = "col-md-4">
+<p style="font-size:20px">5àsec  </p>
+Asunción, Paraguay  
+Oct 2016 - Jan 2018
+
+</div>
+  
+<div class = "col-md-8">
+
+<div class="a">Gerente General</div>
+
+In this job position, I have assumed the management of a local company acquired by 5àsec, which was the owner of 7 dry cleaning store. I focused my efforts on these outlets because the original 5àsec store already had skilled employees to run the business.
+
+I have assessed these stores to create an analysis, which allowed me to study and discern how to proceed. I identified a low Gross Margin of 36%, due to an overstaffed payroll. So, I decided to downsize the staff to raise the company health.  As a result of this decision, I boosted the Gross Margin to 56,75%.
+
+Another problem was the unprofitable commercial points due to high rents, logistics, and overheads. For this reason, I also decided to downsize the stores' number, and the result of this action was an SG&A decreasing from 23,69% to 15,81%.
+
+As a result of my decisions, the EBITDA Margin raises from 12,24% in  2016 and reach 40,94% in 2017, even more, the revenue had increased 5,10% in this same period due to a well-trained staff. Consequently, I revamp 3 (three) stores and rebrand to 5àsec from this savings.
+
+**Responsibilities**
+
+* Project Management: Overseeing the revamp of old stores works and keeping it on time.
+* HR Management: Employee Record, Payroll, Hiring, Training and Evaluating.
+* Accounting Management: Tracking the Accounts Payables and Receivables, Economic Analysis, Reducing the SG&A costs.
+* Supply Chain: Developing Local suppliers, Machinery and Consumables Importation, and Inventory control.
+ Operational Management: Quality Management, Productivity Evaluation, Process Enhancement, Planning, Organizing, Supervising the production area, Logistic, and Reducing the COGS.
+* Legal Issues: Business License, Environmental License, Municipal Taxes, etc.
+* Technical Support and Assistance.
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class = "row">
+  
+<div class = "col-md-4">
+5àsec  
+Asunción, Paraguay  
+Jun 2016 - Oct 2016
+
+</div>
+  
+<div class = "col-md-8">
+
+Operations Manager
+
+My objective in the store's beginning was to compound a good team as soon as possible. As an outcome of my commitment, I have assumed the franchise operations management, some HR's activities, and a close relationship with the accountant.
+
+As a foreign, I was obligated to start to study the local accounting and administration to understand the Paraguayan's tributary system and the local labour law. 
+
+**Responsibilities**
+
+* HR Management: Hiring, Training, Evaluating, Payroll, and the Employee record.
+* Operational Management: Quality Management, Productivity Evaluation, Process Enhancement, Planning, Organizing and Supervising the production area.
+* Accounting Management: Tracking the Accounts Payables and Receivables.
+* Legal Issues: Business License, Environmental License, Municipal Taxes,
+etc.
+
+</div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class = "row">
+  
+<div class = "col-md-4">
+5àsec  
+Asunción, Paraguay  
+Jan 2016 - Jun 2016
+
+</div>
+  
+<div class = "col-md-8">
+
+Project Manager
+
+In this full-time job, I was the person in charge to introduce the 5àsec brand in Paraguay. My activities in this first moment were to oversee the works premises located in a Shopping Mall and to ensure the store's specifications preconized by the Franchise. Whilst the construction, I had been training in Madrid and Genebra stores to become the specialist in dry cleaning and laundry for 1-month.
+
+After my formation, I have trained all my team and installed the machinery to be ready for the store roll-out (23 May 2016).
+
+**Responsibilities**
+
+* Project Management: Overseeing the premises construction and ensure the deadline.
+* Supply Chain: Developing Local suppliers, Inventory Control, Machinery and Consumables Importation.
+
+</div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="right">
+## Daimon
+</div>
+
+<div class = "row">
+  
+<div class = "col-md-4">
+Daimon Engenharia e Sistemas  
+São Paulo, Brazil  
+Mar 2009 - Jan 2016
+
+</div>
+  
+<div class = "col-md-8">
+
+Electrical Engineer
+
+As an Electrical Engineer, I have worked performing researcher and applications in R&D Projects. Due to the nature of my job, all my activities relied on learning new methods, approaches, algorithms, optimisation, statistics, mathematical modelling, etc., and later how to apply it in engineer solutions usually delivering software and technical reports.
+
+As a consequence, my team and I have had 5 (five) papers published in the CIRED's Biennial Conferences and many other in local conferences.
+
+I will point out the main fields of my activities in this job:
+
+* Developing a DMS's tool to aid the DSO's decision-making easier in case of programmable outages or fault.
+* Developing a DSA's tool which aids the operator's decision making. This tool outcome provides an optimized place to install Capacitor Banks or/and Voltage Regulator.
+* Power Flow enhancement by the use of a Load modelling and customer interviews.
+* Developing a DSA's tool which allocates automatic switches.
+* A proposition of an alternative method of technical losses calculation based on an evaluation of the Regulatory Agency method results.
+* Creating an Action Plan to Joinville Agency (15 substations and 82 feeders) based on Network Data Analysis, Market Analysis, Forecasting growth taxes (82 feeders), Technical Economic Study, and Reliability Study.
+
+**Responsibilities**
+
+*
+
+</div>
+  
+</div>
+
+
+****
+
+# Education
+
+<div class = "row">
+  
+<div class = "col-md-4">
+Polytechnic School of the University of São Paulo  
+São Paulo, Brazil  
+2004 - 2011
+
+</div>
+  
+<div class = "col-md-8">
+
+Bachelor in Electrical Engineer
+
+* My graduation was focused in Power Systems with major in Electric
+Distribution Systems.
+
+</div>
+  
+</div>
+
+
+****
+
+# Technical Skills
+
+<div class = "row">
+  
+<div class = "col-md-6">
+
+* R Language.
+* Project Management.
+* DSA (Distribution System Analysis), DMS (Distribution Management System) and OMS (Outage Management System).
+* Mathematical Modeling, Optimisation, Econometrics, Data Analysis, and Forecasting.
+* Technical Economic Studies.
+
+
+</div>
+  
+<div class = "col-md-6">
+
+* Management and Accounting.
+* Planning and Operational the Electrical Distribution Systems.
+* Knowledge Management.
+* Network Optimization.
+* Regulatory Affairs.
+
+</div>
+  
+</div>
+
+****
+
+
+# Personal Skills
+
+* Collaborative Mindset: In 5àsec, I have tried to put a skilled employees to mentor the newcomers, which developed empathy among team member, as a consequence, they start to share knowledge and arranging solutions. I also detected the leaders whom I promoted.
+
+* Commitment: The ownership mentality, responsibility, sense of belonging, personal involvement, and ethics are part of the commitment. When I applied it to 5àsec, I observed an increase in production. So I will encourage my team to do the same.
+
+* Holistic Approach: I always keep in mind the decisions' consequences on the global view, because a myopic approach could hinder the problem's understood. For this reason, I investigate the problem through a broader horizon before any decision.
+
+* Adaptability: In my work history, I have already worked as Electrical Engineer, Programmer, Researcher, Ironer, Receptionist, Choffer, General Manager, etc.
+
+* Willingness to Learn: Based on my activities in R&D, I am used to learning by myself, that is why I usually enrol on Coursera and EdX courses. I also received the technical support training in Italy in June 2017.
+
+* Communication: As an engineer, I have presented technical papers in conferences, technical presentation (about methodologies, algorithms, etc.), and I have trained clients to use DSA and DMS software. I also worked at 5àsec stores on the counter as a receptionist.
+
+****
+
+# Volunteer Experience
+
+<div class = "row">
+  
+<div class = "col-md-4">
+Volunteer
+Mogi das Cruzes, Brazil
+Apr 2018
+
+</div>
+  
+<div class = "col-md-8">
+
+I was a volunteer at an event hosted by the Japanese Community from Mogi das Cruzes called Akimatsuri. I have aided the elders for 4 days (each day for 4 hours).
+
+https://www.akimatsuri.com.br
+
+</div>
+  
+</div>
+
+
+<div class = "row">
+  
+<div class = "col-md-4">
+Volunteer
+Mogi das Cruzes, Brazil
+Jan 2006 - Dec 2007
+
+</div>
+  
+<div class = "col-md-8">
+Electrical Engineering Academic Center
+
+I was a volunteer, and I worked 20 hours a week.
+
+**Responsibilities**
+
+* Campi Newspapers Editor
+* Academic Center Maintenance and Organization
+* Event Organizer with Alumni and Students
+* Technical Lecture Organizer
+
+
+</div>
+  
+</div>
+
+
+****
+
+# Achievements
+
+
+
+
+# Interests
+
+

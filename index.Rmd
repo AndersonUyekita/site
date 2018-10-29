@@ -5,19 +5,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(kableExtra)
 ```
 
 # Welcome
 
-This is my personal website.
-
-# Curriculum Vitae
-
-```{r}
-kable(mtcars) %>% kable_styling()
-```
-
-
-# Publication
-
+Hi! Welcome to my personal website. I am delighted to see you here visiting my pages.

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Anderson Hitoshi Uyekita</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">AH Uyekita</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About
+  </a>
+</li>
+<li>
+  <a href="projects.html">
+    <span class="fa fa-gear"></span>
+     
+    Projects
+  </a>
+</li>
+<li>
+  <a href="cv.html">
+    <span class="fa fa-address-card"></span>
+     
+    Curriculum Vitae
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="anderson.uyekita@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/AndersonUyekita">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/andersonuyekita/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Anderson Hitoshi Uyekita</h1>
+
+</div>
+
+
+<style>
+body {text-align: justify}
+</style>
+<style>
+div.a {
+    font-size: 20px;
+}
+
+div.b {
+    font-size: large;
+}
+
+div.c {
+    font-size: 150%;
+}
+</style>
+<p><i class="fas fa-map-marker-alt"></i> Rua dos Buritis, 437, Ap 14, Jabaquara, São Paulo, Brazil<br />
+<i class="fas fa-envelope"></i> anderson.uyekita[at]gmail.com<br />
+<i class="fab fa-whatsapp"></i> + 55 11 9886 4470</p>
+<hr />
+<div id="personal-statement" class="section level1">
+<h1>Personal Statement</h1>
+<p>Since I had resigned my last job position as a General Manager, I decided to move to my parent’s ranch, whereby I have enjoyed a great time becoming closest to my family, learning Japanese, aiding the local community, keeping contact with nature and slowing down my pace. After a sabbatical period of 10 months, I have redesigned my long-term personal objective: a well-balanced lifestyle.</p>
+<p>Now, I am keen to have a bit of challenge, and also to develop a solid career in an excellent company, open-minded, and with great potential to grow.</p>
+<p>As a researcher, I have learned and taken this principle into my life:</p>
+<p>In some algorithms, the mutation operator is essential to introduce a new gene variety, which is crucial to surpass difficulties in a homogeneous population.</p>
+<p>Hence, moving to an abroad country could introduce new knowledge in my work life, and I also could share different techniques from my past work in my future workplace, an application of the Mutation Operator in our lives.</p>
+<hr />
+</div>
+<div id="work-experience" class="section level1">
+<h1>Work Experience</h1>
+<div align="right">
+<h2 id="asec">5àsec</h2>
+</div>
+<div class="row">
+<div class="col-md-4">
+<p style="font-size:20px">
+5àsec
+</p>
+<p>Asunción, Paraguay<br />
+Oct 2016 - Jan 2018</p>
+</div>
+<div class="col-md-8">
+<div class="a">
+Gerente General
+</div>
+<p>In this job position, I have assumed the management of a local company acquired by 5àsec, which was the owner of 7 dry cleaning store. I focused my efforts on these outlets because the original 5àsec store already had skilled employees to run the business.</p>
+<p>I have assessed these stores to create an analysis, which allowed me to study and discern how to proceed. I identified a low Gross Margin of 36%, due to an overstaffed payroll. So, I decided to downsize the staff to raise the company health. As a result of this decision, I boosted the Gross Margin to 56,75%.</p>
+<p>Another problem was the unprofitable commercial points due to high rents, logistics, and overheads. For this reason, I also decided to downsize the stores’ number, and the result of this action was an SG&amp;A decreasing from 23,69% to 15,81%.</p>
+<p>As a result of my decisions, the EBITDA Margin raises from 12,24% in 2016 and reach 40,94% in 2017, even more, the revenue had increased 5,10% in this same period due to a well-trained staff. Consequently, I revamp 3 (three) stores and rebrand to 5àsec from this savings.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Project Management: Overseeing the revamp of old stores works and keeping it on time.</li>
+<li>HR Management: Employee Record, Payroll, Hiring, Training and Evaluating.</li>
+<li>Accounting Management: Tracking the Accounts Payables and Receivables, Economic Analysis, Reducing the SG&amp;A costs.</li>
+<li>Supply Chain: Developing Local suppliers, Machinery and Consumables Importation, and Inventory control. Operational Management: Quality Management, Productivity Evaluation, Process Enhancement, Planning, Organizing, Supervising the production area, Logistic, and Reducing the COGS.</li>
+<li>Legal Issues: Business License, Environmental License, Municipal Taxes, etc.</li>
+<li>Technical Support and Assistance.</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<p>5àsec<br />
+Asunción, Paraguay<br />
+Jun 2016 - Oct 2016</p>
+</div>
+<div class="col-md-8">
+<p>Operations Manager</p>
+<p>My objective in the store’s beginning was to compound a good team as soon as possible. As an outcome of my commitment, I have assumed the franchise operations management, some HR’s activities, and a close relationship with the accountant.</p>
+<p>As a foreign, I was obligated to start to study the local accounting and administration to understand the Paraguayan’s tributary system and the local labour law.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>HR Management: Hiring, Training, Evaluating, Payroll, and the Employee record.</li>
+<li>Operational Management: Quality Management, Productivity Evaluation, Process Enhancement, Planning, Organizing and Supervising the production area.</li>
+<li>Accounting Management: Tracking the Accounts Payables and Receivables.</li>
+<li>Legal Issues: Business License, Environmental License, Municipal Taxes, etc.</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<p>5àsec<br />
+Asunción, Paraguay<br />
+Jan 2016 - Jun 2016</p>
+</div>
+<div class="col-md-8">
+<p>Project Manager</p>
+<p>In this full-time job, I was the person in charge to introduce the 5àsec brand in Paraguay. My activities in this first moment were to oversee the works premises located in a Shopping Mall and to ensure the store’s specifications preconized by the Franchise. Whilst the construction, I had been training in Madrid and Genebra stores to become the specialist in dry cleaning and laundry for 1-month.</p>
+<p>After my formation, I have trained all my team and installed the machinery to be ready for the store roll-out (23 May 2016).</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Project Management: Overseeing the premises construction and ensure the deadline.</li>
+<li>Supply Chain: Developing Local suppliers, Inventory Control, Machinery and Consumables Importation.</li>
+</ul>
+</div>
+</div>
+<div align="right">
+<h2 id="daimon">Daimon</h2>
+</div>
+<div class="row">
+<div class="col-md-4">
+<p>Daimon Engenharia e Sistemas<br />
+São Paulo, Brazil<br />
+Mar 2009 - Jan 2016</p>
+</div>
+<div class="col-md-8">
+<p>Electrical Engineer</p>
+<p>As an Electrical Engineer, I have worked performing researcher and applications in R&amp;D Projects. Due to the nature of my job, all my activities relied on learning new methods, approaches, algorithms, optimisation, statistics, mathematical modelling, etc., and later how to apply it in engineer solutions usually delivering software and technical reports.</p>
+<p>As a consequence, my team and I have had 5 (five) papers published in the CIRED’s Biennial Conferences and many other in local conferences.</p>
+<p>I will point out the main fields of my activities in this job:</p>
+<ul>
+<li>Developing a DMS’s tool to aid the DSO’s decision-making easier in case of programmable outages or fault.</li>
+<li>Developing a DSA’s tool which aids the operator’s decision making. This tool outcome provides an optimized place to install Capacitor Banks or/and Voltage Regulator.</li>
+<li>Power Flow enhancement by the use of a Load modelling and customer interviews.</li>
+<li>Developing a DSA’s tool which allocates automatic switches.</li>
+<li>A proposition of an alternative method of technical losses calculation based on an evaluation of the Regulatory Agency method results.</li>
+<li>Creating an Action Plan to Joinville Agency (15 substations and 82 feeders) based on Network Data Analysis, Market Analysis, Forecasting growth taxes (82 feeders), Technical Economic Study, and Reliability Study.</li>
+</ul>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li></li>
+</ul>
+</div>
+</div>
+<hr />
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<div class="row">
+<div class="col-md-4">
+<p>Polytechnic School of the University of São Paulo<br />
+São Paulo, Brazil<br />
+2004 - 2011</p>
+</div>
+<div class="col-md-8">
+<p>Bachelor in Electrical Engineer</p>
+<ul>
+<li>My graduation was focused in Power Systems with major in Electric Distribution Systems.</li>
+</ul>
+</div>
+</div>
+<hr />
+</div>
+<div id="technical-skills" class="section level1">
+<h1>Technical Skills</h1>
+<div class="row">
+<div class="col-md-6">
+<ul>
+<li>R Language.</li>
+<li>Project Management.</li>
+<li>DSA (Distribution System Analysis), DMS (Distribution Management System) and OMS (Outage Management System).</li>
+<li>Mathematical Modeling, Optimisation, Econometrics, Data Analysis, and Forecasting.</li>
+<li>Technical Economic Studies.</li>
+</ul>
+</div>
+<div class="col-md-6">
+<ul>
+<li>Management and Accounting.</li>
+<li>Planning and Operational the Electrical Distribution Systems.</li>
+<li>Knowledge Management.</li>
+<li>Network Optimization.</li>
+<li>Regulatory Affairs.</li>
+</ul>
+</div>
+</div>
+<hr />
+</div>
+<div id="personal-skills" class="section level1">
+<h1>Personal Skills</h1>
+<ul>
+<li><p>Collaborative Mindset: In 5àsec, I have tried to put a skilled employees to mentor the newcomers, which developed empathy among team member, as a consequence, they start to share knowledge and arranging solutions. I also detected the leaders whom I promoted.</p></li>
+<li><p>Commitment: The ownership mentality, responsibility, sense of belonging, personal involvement, and ethics are part of the commitment. When I applied it to 5àsec, I observed an increase in production. So I will encourage my team to do the same.</p></li>
+<li><p>Holistic Approach: I always keep in mind the decisions’ consequences on the global view, because a myopic approach could hinder the problem’s understood. For this reason, I investigate the problem through a broader horizon before any decision.</p></li>
+<li><p>Adaptability: In my work history, I have already worked as Electrical Engineer, Programmer, Researcher, Ironer, Receptionist, Choffer, General Manager, etc.</p></li>
+<li><p>Willingness to Learn: Based on my activities in R&amp;D, I am used to learning by myself, that is why I usually enrol on Coursera and EdX courses. I also received the technical support training in Italy in June 2017.</p></li>
+<li><p>Communication: As an engineer, I have presented technical papers in conferences, technical presentation (about methodologies, algorithms, etc.), and I have trained clients to use DSA and DMS software. I also worked at 5àsec stores on the counter as a receptionist.</p></li>
+</ul>
+<hr />
+</div>
+<div id="volunteer-experience" class="section level1">
+<h1>Volunteer Experience</h1>
+<div class="row">
+<div class="col-md-4">
+<p>Volunteer Mogi das Cruzes, Brazil Apr 2018</p>
+</div>
+<div class="col-md-8">
+<p>I was a volunteer at an event hosted by the Japanese Community from Mogi das Cruzes called Akimatsuri. I have aided the elders for 4 days (each day for 4 hours).</p>
+<p><a href="https://www.akimatsuri.com.br" class="uri">https://www.akimatsuri.com.br</a></p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<p>Volunteer Mogi das Cruzes, Brazil Jan 2006 - Dec 2007</p>
+</div>
+<div class="col-md-8">
+<p>Electrical Engineering Academic Center</p>
+<p>I was a volunteer, and I worked 20 hours a week.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li>Campi Newspapers Editor</li>
+<li>Academic Center Maintenance and Organization</li>
+<li>Event Organizer with Alumni and Students</li>
+<li>Technical Lecture Organizer</li>
+</ul>
+</div>
+</div>
+<hr />
+</div>
+<div id="achievements" class="section level1">
+<h1>Achievements</h1>
+</div>
+<div id="interests" class="section level1">
+<h1>Interests</h1>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
