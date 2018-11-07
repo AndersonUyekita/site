@@ -1,14 +1,21 @@
 ---
-title: "AH Uyekita"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<head><link rel="shortcut icon" type="image/png" href="img/favicon.png"></head>
 
 # Welcome
 
-Hi! Welcome to my personal website. I am delighted to see you here visiting my pages.
+<br>
 
-Hi Hi HI
+Hi! Welcome to my personal website. I am delighted to see you here visiting my pages.  
+
+In this place, I host my Curriculum Vitae and some other stuff.  
+
+Feel free to wander around my pages.  
+
+Thank you,  
+AH Uyekita.

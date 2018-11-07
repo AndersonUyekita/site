@@ -6,22 +6,17 @@ navbar:
     - text: "Home"
       href: index.html
       icon: fa-home
-    - text: "About"
-      href: about.html
-      icon: fa-info
     - text: "Portfolio"
       href: portfolio.html
       icon: fa-gear
       menu:
         - text: "Project"
-          href: project.html
+          href: projects.html
           icon: fa-gear
     - text: "Curriculum Vitae"
       href: cv.html
       icon: fa-address-card
   right:
-    - icon: fa-envelope fa-lg
-      href: anderson.uyekita@gmail.com
     - icon: fa-github fa-lg
       href: http://github.com/AndersonUyekita
     - icon: fa-linkedin fa-lg

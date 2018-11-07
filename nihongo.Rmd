@@ -5,92 +5,22 @@ author: "植北　ひとし"
 date: "29 de outubro de 2018"
 output: html_document
 ---
-<head>
-<style>
-#tbl {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
 
-#tbl td, #tbl th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-#tbl tr:nth-child(even){background-color: #e6eeff;}
-
-#tbl tr:hover {background-color: #6699ff;}
-
-#tbl th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #000066;
-    color: white;
-}
-</style>
-</head>
-
-<body>
-
-<div align="center">
-<table id="tbl" width="100%">
-  <tr>
-    <th>い-ADJ</th>
-    <th>な-ADJ</th>
-  </tr>
-  <tr>
-    <td>ひろい</td>
-    <td>にぎやか</td>
-  </tr>
-  <tr>
-    <td>せまい</td>
-    <td>ひすか</td>
-  </tr>
-  <tr>
-    <td>たかい</td>
-    <td>しんせつ</td>
-  </tr>
-  <tr>
-    <td>ひくい</td>
-    <td>べんり</td>
-  </tr>
-  <tr>
-    <td>あたらしい</td>
-    <td>じょうず</td>
-  </tr>
-  <tr>
-    <td>ふるい</td>
-    <td>ハンサム</td>
-  </tr>
-  <tr>
-    <td>あさい</td>
-    <td>きれい</td>
-  </tr>
-  <tr>
-    <td>ふかい</td>
-    <td>ゆうめい</td>
-  </tr>
-  <tr>
-    <td>あたたかい</td>
-    <td>きらい</td>
-  </tr>
-  <tr>
-    <td>すずしい</td>
-  </tr>
-</table>
-</div>
+<span class="label label-default">Default</span>
+<span class="label label-primary">Primary</span>
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span>
 
 
 
 
 
-
-
-
-
-
+<div class="alert alert-success" role="alert">dasfasdfas</div>
+<div class="alert alert-info" role="alert">asdfasdfasdf</div>
+<div class="alert alert-warning" role="alert">adfasdfasdf</div>
+<div class="alert alert-danger" role="alert">adsfadsfasfasd</div>
 
 
 
@@ -101,7 +31,7 @@ output: html_document
   <div class = "col-md-6">
   い-ADJ
 
-　さむいです。
+　
 　さむくありません。
 　さむかったです。
 　さむくありませんでした。
