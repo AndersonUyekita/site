@@ -5,7 +5,7 @@ output:
     toc: true
     toc_float: true
 ---
-<head><link rel="shortcut icon" type="image/x-icon" href="03-img/favicon.png"></head>
+<head><link rel="shortcut icon" type="image/x-icon" href="03-img/favicon.ico"></head>
 
 <style>
 div.t20 {

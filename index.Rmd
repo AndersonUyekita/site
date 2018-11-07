@@ -5,7 +5,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<head><link rel="shortcut icon" type="image/x-icon" href="03-img/favicon.png"></head>
+<head><link rel="shortcut icon" type="image/x-icon" href="03-img/favicon.ico"></head>
 
 # Welcome
 
