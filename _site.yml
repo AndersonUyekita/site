@@ -10,9 +10,10 @@ navbar:
       href: portfolio.html
       icon: fa-gear
       menu:
-        - text: "Project"
-          href: projects.html
-          icon: fa-gear
+        - text: "Aurora Project"
+          href: http://rpubs.com/AndersonUyekita/QJ45141
+        - text: "Aurora Dashboard"
+          href: http://rpubs.com/AndersonUyekita/QJ45141_dashboard
     - text: "Curriculum Vitae"
       href: cv.html
       icon: fa-address-card
