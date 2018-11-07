@@ -5,7 +5,17 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<head><link rel="shortcut icon" type="image/x-icon" href="03-img/favicon.ico"></head>
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/03-img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/03-img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/03-img/favicon-16x16.png">
+<link rel="manifest" href="/03-img/site.webmanifest">
+<link rel="mask-icon" href="/03-img/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/03-img/favicon.ico">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/03-img/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
 
 # Welcome
 
