@@ -314,3 +314,18 @@ https://holtzy.github.io/Pimp-my-rmd/
 https://medium.com/@LazaroIbanez/how-to-add-a-favicon-to-github-pages-403935604460
 
 https://realfavicongenerator.net/favicon_checker?protocol=https&site=andersonuyekita.github.io%2Fsite%2F
+
+
+
+
+<!--- Código para que todas as páginas fora do meu domínio sejam abertas em novas abas --->
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>

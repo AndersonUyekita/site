@@ -10,7 +10,15 @@
 
 
 <meta name="author" content="AH Uyekita" />
-
+<link rel="apple-touch-icon" sizes="180x180" href="/03-img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/03-img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/03-img/favicon-16x16.png">
+<link rel="manifest" href="/03-img/site.webmanifest">
+<link rel="mask-icon" href="/03-img/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/03-img/favicon.ico">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/03-img/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
 
 <title></title>
 
@@ -21,7 +29,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -629,6 +637,17 @@ Resposta: Tente o <a href="https://www.w3schools.com/howto/howto_js_topnav.asp">
 <p><a href="https://holtzy.github.io/Pimp-my-rmd/" class="uri">https://holtzy.github.io/Pimp-my-rmd/</a></p>
 <p><a href="https://medium.com/@LazaroIbanez/how-to-add-a-favicon-to-github-pages-403935604460" class="uri">https://medium.com/@LazaroIbanez/how-to-add-a-favicon-to-github-pages-403935604460</a></p>
 <p><a href="https://realfavicongenerator.net/favicon_checker?protocol=https&amp;site=andersonuyekita.github.io%2Fsite%2F">https://realfavicongenerator.net/favicon_checker?protocol=https&amp;site=andersonuyekita.github.io%2Fsite%2F</a></p>
+<!--- Código para que todas as páginas fora do meu domínio sejam abertas em novas abas --->
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
 </div>
 </div>
 </div>
