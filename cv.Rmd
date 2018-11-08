@@ -5,6 +5,8 @@ output:
     toc: true
     toc_float: true
 ---
+<!--- Meus estilos --->
+<!--- TO DO: Inserir num arquivo CSS --->
 <style>
 div.t20 {
     font-size: 20px;
@@ -37,6 +39,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 </style>
 
+<!--- Dados pessoais --->
 
 <i class="fas fa-map-marker-alt"></i>  Rua dos Buritis, 437, Ap 14, Jabaquara, S&atilde;o Paulo, Brazil  
 <i class="fas fa-envelope"></i>  anderson.uyekita[at]gmail.com  
@@ -44,10 +47,11 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <i class="fab fa-github"></i> http://github.com/AndersonUyekita  
 <i class="fab fa-linkedin"></i> https://www.linkedin.com/in/andersonuyekita/  
 
-
 ****
 
-# <i class="fas fa-gem"></i> Personal Statement
+<!--- Personal Statement --->
+
+# <i class="fas fa-user-circle"></i> Personal Statement
 
 Since I had resigned my last job position as a General Manager, I decided to move to my parent's ranch, whereby I have enjoyed a great time becoming closest to my family, learning Japanese, aiding the local community, keeping contact with nature and slowing down my pace. After a sabbatical period of 10 months, I have redesigned my long-term personal objective: a well-balanced lifestyle.
 
@@ -57,9 +61,8 @@ As a researcher, I have learned and taken this principle into my life:
 
 > In some algorithms, the mutation operator is essential to introduce a new gene variety, which is crucial to surpass difficulties in a homogeneous population.
 
-Hence, moving to an abroad country could introduce new knowledge in my work life, and I also could share different techniques from my past work in my future workplace, an application of the Mutation Operator in our lives.
-
 ****
+<!--- Experiencia Profissional --->
 
 # <i class="fas fa-briefcase"></i> Work Experience
 
@@ -78,6 +81,8 @@ Oct 2016 - Jan 2018
 </div>
   
 <div class = "col-md-8">
+
+<!--- 5asec Gerente Geral --->
 
 <div class="t20">Gerente General</div>
 
@@ -173,6 +178,8 @@ Mar 2009 - Jan 2016
   
 <div class = "col-md-8">
 
+<!--- Daimon Engenheiro Eletricista --->
+
 <div class="t20">Electrical Engineer</div>
 
 As an Electrical Engineer, I have worked performing researcher and applications in R&D Projects. Due to the nature of my job, all my activities relied on learning new methods, approaches, algorithms, optimisation, statistics, mathematical modelling, etc., and later how to apply it in engineer solutions usually delivering software and technical reports.
@@ -217,6 +224,7 @@ I will point out the main fields of my activities in this job:
 </div>
 
 ****
+<!--- Formacao Academica --->
 
 # <i class="fas fa-graduation-cap"></i> Education
 
@@ -357,6 +365,7 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
 
 ##### {.end}
 ****
+<!--- Habilidade Tecnicas - Hard Skills --->
 
 # <i class="fas fa-chart-bar"></i> Technical Skills
 
@@ -386,7 +395,7 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
 </div>
 
 ****
-
+<!--- Caracteristicas comportamentais - Soft Skills --->
 
 # <i class="fas fa-users"></i> Personal Skills
 
@@ -403,6 +412,7 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
 * Communication: As an engineer, I have presented technical papers in conferences, technical presentation (about methodologies, algorithms, etc.), and I have trained clients to use DSA and DMS software. I also worked at 5&agrave;sec stores on the counter as a receptionist.
 
 ****
+<!--- Trabalho Voluntario --->
 
 # <i class="fas fa-people-carry"></i> Volunteer Activities
 
@@ -456,12 +466,14 @@ I was a volunteer, and I worked 20 hours a week.
 
 
 ****
+<!--- Conquistas --->
 
 # <i class="fas fa-trophy"></i> Achievements
 
 * 5àsec Best Starter
 
 ****
+<!--- Publicacoes --->
 
 # <i class="far fa-newspaper"></i> Publications
 
@@ -479,6 +491,7 @@ I was a volunteer, and I worked 20 hours a week.
 
 
 ***
+<!--- Interesses --->
 
 # <i class="fas fa-plus-circle"></i>Interests
 
