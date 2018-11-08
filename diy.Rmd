@@ -1,0 +1,316 @@
+---
+author: "AH Uyekita"
+date: "28 de outubro de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Processo de criação deste site
+
+Este site foi criado a partir de uma necessidade de _aprender_ uma nova linguagem de programação. Desta maneira, estudei ao longo de duas semanas um pouco sobre html, Bootstrap, Markdown, Hugo, CSS etc. para conseguir entender de forma ampla como um site poderia ser feito e qual deles seria aquele que atenderia as minhas necessidades.
+
+## Github Pages
+
+Após algumas pesquisas decidi criar um site a partir da notação Rmarkdown e hospedado no Github. Não há custo de hospedagem e é de _fácil_ (nem tanto assim se você não é familiarizado com essa ferramenta) implementação.
+
+## Requisitos
+
+Você vai precisar de:  
+
+* Uma conta no [Github](https://github.com);
+* [Git](https://pt.wikipedia.org/wiki/Git) instalado;
+* Alguma [IDE](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado) para criar o conteúdo, e;
+* Muita [paciência](https://pt.wikipedia.org/wiki/Paciência).
+
+Esses são os requisitos básicos, se você não sabe o que são essas ferramentas _supracitadas_, creio que será um desafio maior para você, mas darei todo o meu apoio para que continue nessa jornada (Você consegue!).
+
+Particularmente estou usando o RStudio (como a minha IDE) para criar o conteúdo do site, mas você pode usar qualquer outra plataforma, tipo o Atom, Visio, Notepad++, Sublime, Eclipse, VI etc.
+
+## Motivação
+
+Não é altruismo, estou escrevendo isso para praticar (o RMarkdown). Futuramente vou me esquecer de muita coisa desse pequeno projeto e para resgatar esse conhecimento mais rapidamente (caso eu tenha que usá-lo novamente), isso será um atalho para que eu não tenha que fazer uma nova pesquisa no Google e ter que começar tudo do zero.
+
+## Boas práticas
+
+Como em qualquer projeto você precisa anotar tudo o que você fez para que ele seja _depurável_ e dar os créditos aos envolvidos. O que eu sugiro é que você use o [Stackoverflow](https://stackoverflow.com) para qualquer dúvida (das mais idiotas até as mais complexas), tenha um gerenciador de sites (esse tal de Pocket é bom, mas eu uso o [Instapaper](https://www.instapaper.com/)), assim você poderá arquivar os sites que te ajudaram e gerenciá-los. O histórico do navegador não é tão bom assim e os "favoritos" dos navegadores são bem limitados.
+
+## Planejamento
+
+O passo-a-passo para construir o seu site com host no Github (Por exemplo: fulaninhodetal.github.io) é relativamente simples. Basta você seguir os 4 passos:
+
+1. Ter um bom motivo para criar um site;
+2. Criar um usuário Github;
+3. Instalar uma IDE;
+       1. Criar as primeiras páginas do seu site;
+       2. Configurar o seu site;
+4. Depositar as páginas no Github.
+
+### 1. Ter um bom motivo para criar um site
+
+Você precisa ter uma noção do que você vai colocar nesse site. Note que a criação de um site é algo que demanda tempo na criação de conteúdo, mesmo que seja só para colocar o CV. O meu site é bem simples vou colocar a estrutura dele aqui:
+
+##### {.tabset}
+
+###### Visual
+```
+Meu Site
+|
+|-- Home
+|-- Portfolio
+|     |--- Aurora Project
+|     |--- Aurora Dashboard
+|-- Curriculum Vitae
+```
+###### Nomes dos arquivos
+```
+Meu Site
+|
+|-- index.html
+|-- portfolio.html
+|     |--- http://meu.projeto.com.br/projeto1.html
+|     |--- http://meu.projeto.com.br/projeto2.html
+|--cv.html
+```
+##### {.end}
+
+Observe que há duas formas que coloquei:
+
+1. Da maneira que vemos no site, e;
+2. Pelos nomes dos aquivos.
+
+Parece óbvio, mas não custa ressaltar: para cada arquivo html você terá que produzir um conteúdo para preenchê-lo. Seja econômico na sua primeira versão de site.
+
+### 2. Criar um usuário Github
+
+Isso é um requisito mínimo porque sem esse usuário você não terá como hospedar a sua página. Não tem muito mistério nisso, tem que entrar no site do [Github](https://github.com) e criar uma conta.
+
+Vai lá criar uma conta, enquanto isso eu te espero aqui.
+
+### 3. Instalar uma IDE
+
+É muito difícil programar sem uma IDE, recomendo o uso de software livre, tal como o [Atom](https://atom.io).  
+
+Quais são as vantagens de um software livre?  
+Resposta: É de graça.  
+
+O IDE vai te ajudar a deixar o seu programa bem estruturado e gerará os arquivos html que você tanto precisará.
+
+#### 3.1. Criar as primeiras páginas do seu site
+
+Se você é um _dumb_, um completo nó cego em programação, um analfabeto digital, aqui sim _a porca torce o rabo_, mas não se sinta intimidado, pois temos boas ferramentas disponíveis na internet que vão te ajudar um bocado.
+
+Primeira coisa, lembre-se da estrutura do seu site (espero que você já tenha um esboço dele). Colocarei um exemplo abaixo bem simples.
+
+```
+Meu site
+|
+|-- index.html
+```
+Vamos criar 1 (um) arquivo só para exemplificar. O restante é por sua conta!
+
+##### 3.1.1. index.html
+
+É o único arquivo essencial para o site existir. Note que o nome tem que ser exatamente **index.html**.
+
+##### {.tabset}
+
+###### html
+```
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<body>
+
+<p>Hello World!</p>
+
+</body>
+</html>
+```
+###### Como pessoas normais veem
+
+Hello World!
+
+##### {.end}
+
+#### 3.2. Configurar o seu site
+
+Essa parte pode ser um pouco chata, pois requer que o usuário saiba usar o Git. Há diversos tutoriais com fotos e passo-a-passo de como criar os repositórios.
+
+Basicamente, cria-se um novo repositório com um nome qualquer (não vejo necessidade que o repositório tenha um nome específico conforme diversos tutoriais dizem).
+
+Configura-se o repositório criado em: Setting > Github Pages > Source > master branch > Save
+
+A partir desse momento qualquer arquivo index.html que for depositado neste repositório será utilizado como homepage. Obseve que ele já fornece o nome do site: 
+
+> Your site is published at https://fulaninhodetal.github.io/meu_repositorio/
+
+### 4. Depositar as páginas no Github
+
+Para fazer o upload do seu arquivo index.html para o Github você terá que usar o Git (provavelmente terá que instalar o [Git](https://git-scm.com/)).
+
+A primeira coisa a fazer é parear o que você tem no repositório virtual com a sua máquina.
+
+Espero que você tenha criado uma pasta e colocado todo o solitário index.html lá. Usando o Git Bash você terá que acessar esse diretório. Os códigos a serem executados nesta pasta.
+
+##### {.tabset}
+
+###### Comando
+```
+git init
+git pull https://github.com/fulaninhodetal/meu_site/
+rm readme.md
+git add -A
+git commit -m "meu site eh lindo"
+git push https://github.com/fulaninhodetal/meu_site/ master
+```
+###### Comentários
+```
+git init                                              # Inicia o versionamento
+git pull https://github.com/fulaninhodetal/meu_site/  # Pareia o Github com o repositório local
+rm readme.md                                          # Remove o readme.md
+git add -A                                            # Coloca os arquivos novos no stage
+git commit -m "meu site eh lindo"                     # Prepara os arquivos para o push
+git push https://github.com/fulaninhodetal/meu_site/ master  # Faz o upload dos arquivos para o Github
+```
+##### {.end}
+
+Observação importantíssima: Deve-se remover o readme.md porque com ele o site não funciona.  
+
+Por fim, você já deverá ter o seu site funcionando no endereço:  
+
+> https://fulaninhodetal.github.io/meu_repositorio/
+
+OK! Eu entendo. O site "Hello World" é feio para caramba.
+
+### 5. Customizar o site
+
+Aqui entra a parte mais demorada do site, a customização é infinita, pois há diversos pacotes que podem ajudá-lo a customizar um site. Eu fico no standard do [Bootstap](https://getbootstrap.com) porque é muito fácil de usá-lo e extremamente documento na web, além disso há diversos tópicos de discussão no Stackoverflow.
+
+#### 5.1. Como começar no Bootstrap
+
+Caso você não tenha nenhum norte a seguir, faça o que eu fiz: Entre no [w3schools](https://www.w3schools.com) e clique em Learn Bootstrap 4.
+
+Ops! Novamente, deve estar sem norte porque há diversos itens e nada parece organizado. Vou traduzir para a linguagem de gente normal.
+
+>Quero mudar aquela barra que fica na parte superior do site  
+>Resposta: Isso se chama [navbar](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)  
+
+>Essa barrinha do exemplo anterior é muito careta quero um mais sofisticado  
+>Resposta: Tente o [Top Navegation Bar](https://www.w3schools.com/howto/howto_js_topnav.asp)  
+
+O próprio w3schools fornece todo o código, além disso, possui uma ferramenta de simulação muito boa (é só clicar no **Try it Yourself**), onde você poderá fazer diversos testes.
+
+#### 5.2. Faça simulações no JSfiddle
+
+Apesar da ferramenta do w3schools ser muito boa, há uma melhor ainda que se chama [JSfiddle](https://jsfiddle.net), sugiro que você crie um perfil, pois você poderá salvar todos os seus fragmentos de código nesta plataforma. Portanto, o fluxo de simulaçõe deverá ser: Copiar e colar (Ctrl+C e Ctrl+V) o código fornecido pelo w3schools e simular no JSfiddle.
+
+Não se esqueça que no JSfiddle você tem que inserir os _resources_ (Bootstrap 4) que você está usando (canto esquerdo no campo Resources URL cdnjs). Adicione:
+
+```
+https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
+```
+
+Logo, um exemplo do arquivo index.html com um navbar novo usando o Bootstrap seria:
+
+##### {.tabset}
+
+###### html
+```
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <div style="padding-left:16px">
+      <h2>Meu Primeiro Site!</h2>
+      <p>Hello World!</p>
+    </div>
+  </body>
+
+</html>
+```
+###### Visualmente
+<iframe width="100%" height="300" src="//jsfiddle.net/AH_Uyekita/Lpucrf4b/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+##### {.end}
+
+Observe que há seções ainda não desenvolvidas como: News, Contact e About. Esses arquivos deverão ser criados separadamente e cada qual contento as suas características. Essa liberdade abre possibilidade de criar diferentes layouts sem ter que seguir um rígido _template_. Contudo, é mais trabalhoso porque requer do usuário conhecimento em progamação html e CSS.
+
+Creio que você já tem um site! Parabéns!
+
+## Adicional
+
+Note que com esse mesmo método de host pelo Github para um site simples, você também poderá hospedar um Blog ou um "livro digital". Creio que a criação de um Blog ou Bookdown podem vir a ser um spin-off desse artigo, deixo abaixo os links para os interessados.
+
+* [Blogdown](https://bookdown.org/yihui/blogdown/);
+* [Bookdown](https://bookdown.org/yihui/bookdown/);
+
+## Sites Visitados
+
+Não reinventei a roda, portanto, ao longo desse mini-projeto foram visitados diversos sites com diferentes objetivos.
+
+### Host de site no Github
+
+https://rmarkdown.rstudio.com/rmarkdown_websites.htm
+
+http://nickstrayer.me/RMarkdown_Sites_tutorial/
+
+https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
+
+https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5
+
+https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github
+
+https://gist.github.com/TylerFisher/6127328
+
+### Dar um tapa no visual careta
+
+https://holtzy.github.io/Pimp-my-rmd/
+
+https://medium.com/@LazaroIbanez/how-to-add-a-favicon-to-github-pages-403935604460
+
+https://realfavicongenerator.net/favicon_checker?protocol=https&site=andersonuyekita.github.io%2Fsite%2F

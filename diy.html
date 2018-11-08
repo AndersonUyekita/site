@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="AH Uyekita" />
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">AH Uyekita</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Portfolio
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="http://rpubs.com/AndersonUyekita/QJ45141">Aurora Project</a>
+    </li>
+    <li>
+      <a href="http://rpubs.com/AndersonUyekita/QJ45141_dashboard">Aurora Dashboard</a>
+    </li>
+    <li>
+      <a href="diy.html">Criando um site</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="cv.html">
+    <span class="fa fa-address-card"></span>
+     
+    Curriculum Vitae
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="http://github.com/AndersonUyekita">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/andersonuyekita/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="processo-de-criacao-deste-site" class="section level1">
+<h1>Processo de criação deste site</h1>
+<p>Este site foi criado a partir de uma necessidade de <em>aprender</em> uma nova linguagem de programação. Desta maneira, estudei ao longo de duas semanas um pouco sobre html, Bootstrap, Markdown, Hugo, CSS etc. para conseguir entender de forma ampla como um site poderia ser feito e qual deles seria aquele que atenderia as minhas necessidades.</p>
+<div id="github-pages" class="section level2">
+<h2>Github Pages</h2>
+<p>Após algumas pesquisas decidi criar um site a partir da notação Rmarkdown e hospedado no Github. Não há custo de hospedagem e é de <em>fácil</em> (nem tanto assim se você não é familiarizado com essa ferramenta) implementação.</p>
+</div>
+<div id="requisitos" class="section level2">
+<h2>Requisitos</h2>
+<p>Você vai precisar de:</p>
+<ul>
+<li>Uma conta no <a href="https://github.com">Github</a>;</li>
+<li><a href="https://pt.wikipedia.org/wiki/Git">Git</a> instalado;</li>
+<li>Alguma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado">IDE</a> para criar o conteúdo, e;</li>
+<li>Muita <a href="https://pt.wikipedia.org/wiki/Paciência">paciência</a>.</li>
+</ul>
+<p>Esses são os requisitos básicos, se você não sabe o que são essas ferramentas <em>supracitadas</em>, creio que será um desafio maior para você, mas darei todo o meu apoio para que continue nessa jornada (Você consegue!).</p>
+<p>Particularmente estou usando o RStudio (como a minha IDE) para criar o conteúdo do site, mas você pode usar qualquer outra plataforma, tipo o Atom, Visio, Notepad++, Sublime, Eclipse, VI etc.</p>
+</div>
+<div id="motivacao" class="section level2">
+<h2>Motivação</h2>
+<p>Não é altruismo, estou escrevendo isso para praticar (o RMarkdown). Futuramente vou me esquecer de muita coisa desse pequeno projeto e para resgatar esse conhecimento mais rapidamente (caso eu tenha que usá-lo novamente), isso será um atalho para que eu não tenha que fazer uma nova pesquisa no Google e ter que começar tudo do zero.</p>
+</div>
+<div id="boas-praticas" class="section level2">
+<h2>Boas práticas</h2>
+<p>Como em qualquer projeto você precisa anotar tudo o que você fez para que ele seja <em>depurável</em> e dar os créditos aos envolvidos. O que eu sugiro é que você use o <a href="https://stackoverflow.com">Stackoverflow</a> para qualquer dúvida (das mais idiotas até as mais complexas), tenha um gerenciador de sites (esse tal de Pocket é bom, mas eu uso o <a href="https://www.instapaper.com/">Instapaper</a>), assim você poderá arquivar os sites que te ajudaram e gerenciá-los. O histórico do navegador não é tão bom assim e os “favoritos” dos navegadores são bem limitados.</p>
+</div>
+<div id="planejamento" class="section level2">
+<h2>Planejamento</h2>
+<p>O passo-a-passo para construir o seu site com host no Github (Por exemplo: fulaninhodetal.github.io) é relativamente simples. Basta você seguir os 4 passos:</p>
+<ol style="list-style-type: decimal">
+<li>Ter um bom motivo para criar um site;</li>
+<li>Criar um usuário Github;</li>
+<li>Instalar uma IDE;
+<ol style="list-style-type: decimal">
+<li>Criar as primeiras páginas do seu site;</li>
+<li>Configurar o seu site;</li>
+</ol></li>
+<li>Depositar as páginas no Github.</li>
+</ol>
+<div id="ter-um-bom-motivo-para-criar-um-site" class="section level3">
+<h3>1. Ter um bom motivo para criar um site</h3>
+<p>Você precisa ter uma noção do que você vai colocar nesse site. Note que a criação de um site é algo que demanda tempo na criação de conteúdo, mesmo que seja só para colocar o CV. O meu site é bem simples vou colocar a estrutura dele aqui:</p>
+<div id="section" class="section level5 tabset">
+<h5></h5>
+<div id="visual" class="section level6">
+<h6>Visual</h6>
+<pre><code>Meu Site
+|
+|-- Home
+|-- Portfolio
+|     |--- Aurora Project
+|     |--- Aurora Dashboard
+|-- Curriculum Vitae</code></pre>
+</div>
+<div id="nomes-dos-arquivos" class="section level6">
+<h6>Nomes dos arquivos</h6>
+<pre><code>Meu Site
+|
+|-- index.html
+|-- portfolio.html
+|     |--- http://meu.projeto.com.br/projeto1.html
+|     |--- http://meu.projeto.com.br/projeto2.html
+|--cv.html</code></pre>
+</div>
+</div>
+<div id="section-1" class="section level5 end">
+<h5></h5>
+<p>Observe que há duas formas que coloquei:</p>
+<ol style="list-style-type: decimal">
+<li>Da maneira que vemos no site, e;</li>
+<li>Pelos nomes dos aquivos.</li>
+</ol>
+<p>Parece óbvio, mas não custa ressaltar: para cada arquivo html você terá que produzir um conteúdo para preenchê-lo. Seja econômico na sua primeira versão de site.</p>
+</div>
+</div>
+<div id="criar-um-usuario-github" class="section level3">
+<h3>2. Criar um usuário Github</h3>
+<p>Isso é um requisito mínimo porque sem esse usuário você não terá como hospedar a sua página. Não tem muito mistério nisso, tem que entrar no site do <a href="https://github.com">Github</a> e criar uma conta.</p>
+<p>Vai lá criar uma conta, enquanto isso eu te espero aqui.</p>
+</div>
+<div id="instalar-uma-ide" class="section level3">
+<h3>3. Instalar uma IDE</h3>
+<p>É muito difícil programar sem uma IDE, recomendo o uso de software livre, tal como o <a href="https://atom.io">Atom</a>.</p>
+<p>Quais são as vantagens de um software livre?<br />
+Resposta: É de graça.</p>
+<p>O IDE vai te ajudar a deixar o seu programa bem estruturado e gerará os arquivos html que você tanto precisará.</p>
+<div id="criar-as-primeiras-paginas-do-seu-site" class="section level4">
+<h4>3.1. Criar as primeiras páginas do seu site</h4>
+<p>Se você é um <em>dumb</em>, um completo nó cego em programação, um analfabeto digital, aqui sim <em>a porca torce o rabo</em>, mas não se sinta intimidado, pois temos boas ferramentas disponíveis na internet que vão te ajudar um bocado.</p>
+<p>Primeira coisa, lembre-se da estrutura do seu site (espero que você já tenha um esboço dele). Colocarei um exemplo abaixo bem simples.</p>
+<pre><code>Meu site
+|
+|-- index.html</code></pre>
+<p>Vamos criar 1 (um) arquivo só para exemplificar. O restante é por sua conta!</p>
+<div id="index.html" class="section level5">
+<h5>3.1.1. index.html</h5>
+<p>É o único arquivo essencial para o site existir. Note que o nome tem que ser exatamente <strong>index.html</strong>.</p>
+</div>
+<div id="section-2" class="section level5 tabset">
+<h5></h5>
+<div id="html" class="section level6">
+<h6>html</h6>
+<pre><code>&lt;!DOCTYPE html&gt;
+
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;Hello World!&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</div>
+<div id="como-pessoas-normais-veem" class="section level6">
+<h6>Como pessoas normais veem</h6>
+<p>Hello World!</p>
+</div>
+</div>
+<div id="section-3" class="section level5 end">
+<h5></h5>
+</div>
+</div>
+<div id="configurar-o-seu-site" class="section level4">
+<h4>3.2. Configurar o seu site</h4>
+<p>Essa parte pode ser um pouco chata, pois requer que o usuário saiba usar o Git. Há diversos tutoriais com fotos e passo-a-passo de como criar os repositórios.</p>
+<p>Basicamente, cria-se um novo repositório com um nome qualquer (não vejo necessidade que o repositório tenha um nome específico conforme diversos tutoriais dizem).</p>
+<p>Configura-se o repositório criado em: Setting &gt; Github Pages &gt; Source &gt; master branch &gt; Save</p>
+<p>A partir desse momento qualquer arquivo index.html que for depositado neste repositório será utilizado como homepage. Obseve que ele já fornece o nome do site:</p>
+<blockquote>
+<p>Your site is published at <a href="https://fulaninhodetal.github.io/meu_repositorio/" class="uri">https://fulaninhodetal.github.io/meu_repositorio/</a></p>
+</blockquote>
+</div>
+</div>
+<div id="depositar-as-paginas-no-github" class="section level3">
+<h3>4. Depositar as páginas no Github</h3>
+<p>Para fazer o upload do seu arquivo index.html para o Github você terá que usar o Git (provavelmente terá que instalar o <a href="https://git-scm.com/">Git</a>).</p>
+<p>A primeira coisa a fazer é parear o que você tem no repositório virtual com a sua máquina.</p>
+<p>Espero que você tenha criado uma pasta e colocado todo o solitário index.html lá. Usando o Git Bash você terá que acessar esse diretório. Os códigos a serem executados nesta pasta.</p>
+<div id="section-4" class="section level5 tabset">
+<h5></h5>
+<div id="comando" class="section level6">
+<h6>Comando</h6>
+<pre><code>git init
+git pull https://github.com/fulaninhodetal/meu_site/
+rm readme.md
+git add -A
+git commit -m &quot;meu site eh lindo&quot;
+git push https://github.com/fulaninhodetal/meu_site/ master</code></pre>
+</div>
+<div id="comentarios" class="section level6">
+<h6>Comentários</h6>
+<pre><code>git init                                              # Inicia o versionamento
+git pull https://github.com/fulaninhodetal/meu_site/  # Pareia o Github com o repositório local
+rm readme.md                                          # Remove o readme.md
+git add -A                                            # Coloca os arquivos novos no stage
+git commit -m &quot;meu site eh lindo&quot;                     # Prepara os arquivos para o push
+git push https://github.com/fulaninhodetal/meu_site/ master  # Faz o upload dos arquivos para o Github</code></pre>
+</div>
+</div>
+<div id="section-5" class="section level5 end">
+<h5></h5>
+<p>Observação importantíssima: Deve-se remover o readme.md porque com ele o site não funciona.</p>
+<p>Por fim, você já deverá ter o seu site funcionando no endereço:</p>
+<blockquote>
+<p><a href="https://fulaninhodetal.github.io/meu_repositorio/" class="uri">https://fulaninhodetal.github.io/meu_repositorio/</a></p>
+</blockquote>
+<p>OK! Eu entendo. O site “Hello World” é feio para caramba.</p>
+</div>
+</div>
+<div id="customizar-o-site" class="section level3">
+<h3>5. Customizar o site</h3>
+<p>Aqui entra a parte mais demorada do site, a customização é infinita, pois há diversos pacotes que podem ajudá-lo a customizar um site. Eu fico no standard do <a href="https://getbootstrap.com">Bootstap</a> porque é muito fácil de usá-lo e extremamente documento na web, além disso há diversos tópicos de discussão no Stackoverflow.</p>
+<div id="como-comecar-no-bootstrap" class="section level4">
+<h4>5.1. Como começar no Bootstrap</h4>
+<p>Caso você não tenha nenhum norte a seguir, faça o que eu fiz: Entre no <a href="https://www.w3schools.com">w3schools</a> e clique em Learn Bootstrap 4.</p>
+<p>Ops! Novamente, deve estar sem norte porque há diversos itens e nada parece organizado. Vou traduzir para a linguagem de gente normal.</p>
+<blockquote>
+<p>Quero mudar aquela barra que fica na parte superior do site<br />
+Resposta: Isso se chama <a href="https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp">navbar</a></p>
+</blockquote>
+<blockquote>
+<p>Essa barrinha do exemplo anterior é muito careta quero um mais sofisticado<br />
+Resposta: Tente o <a href="https://www.w3schools.com/howto/howto_js_topnav.asp">Top Navegation Bar</a></p>
+</blockquote>
+<p>O próprio w3schools fornece todo o código, além disso, possui uma ferramenta de simulação muito boa (é só clicar no <strong>Try it Yourself</strong>), onde você poderá fazer diversos testes.</p>
+</div>
+<div id="faca-simulacoes-no-jsfiddle" class="section level4">
+<h4>5.2. Faça simulações no JSfiddle</h4>
+<p>Apesar da ferramenta do w3schools ser muito boa, há uma melhor ainda que se chama <a href="https://jsfiddle.net">JSfiddle</a>, sugiro que você crie um perfil, pois você poderá salvar todos os seus fragmentos de código nesta plataforma. Portanto, o fluxo de simulaçõe deverá ser: Copiar e colar (Ctrl+C e Ctrl+V) o código fornecido pelo w3schools e simular no JSfiddle.</p>
+<p>Não se esqueça que no JSfiddle você tem que inserir os <em>resources</em> (Bootstrap 4) que você está usando (canto esquerdo no campo Resources URL cdnjs). Adicione:</p>
+<pre><code>https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css</code></pre>
+<p>Logo, um exemplo do arquivo index.html com um navbar novo usando o Bootstrap seria:</p>
+<div id="section-6" class="section level5 tabset">
+<h5></h5>
+<div id="html-1" class="section level6">
+<h6>html</h6>
+<pre><code>&lt;!DOCTYPE html&gt;
+
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+
+  &lt;head&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;style&gt;
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+    &lt;/style&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;div class=&quot;topnav&quot;&gt;
+      &lt;a class=&quot;active&quot; href=&quot;#home&quot;&gt;Home&lt;/a&gt;
+      &lt;a href=&quot;#news&quot;&gt;News&lt;/a&gt;
+      &lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;
+      &lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;padding-left:16px&quot;&gt;
+      &lt;h2&gt;Meu Primeiro Site!&lt;/h2&gt;
+      &lt;p&gt;Hello World!&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+</div>
+<div id="visualmente" class="section level6">
+<h6>Visualmente</h6>
+<iframe width="100%" height="300" src="//jsfiddle.net/AH_Uyekita/Lpucrf4b/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0">
+</iframe>
+</div>
+</div>
+<div id="section-7" class="section level5 end">
+<h5></h5>
+<p>Observe que há seções ainda não desenvolvidas como: News, Contact e About. Esses arquivos deverão ser criados separadamente e cada qual contento as suas características. Essa liberdade abre possibilidade de criar diferentes layouts sem ter que seguir um rígido <em>template</em>. Contudo, é mais trabalhoso porque requer do usuário conhecimento em progamação html e CSS.</p>
+<p>Creio que você já tem um site! Parabéns!</p>
+</div>
+</div>
+</div>
+</div>
+<div id="adicional" class="section level2">
+<h2>Adicional</h2>
+<p>Note que com esse mesmo método de host pelo Github para um site simples, você também poderá hospedar um Blog ou um “livro digital”. Creio que a criação de um Blog ou Bookdown podem vir a ser um spin-off desse artigo, deixo abaixo os links para os interessados.</p>
+<ul>
+<li><a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>;</li>
+<li><a href="https://bookdown.org/yihui/bookdown/">Bookdown</a>;</li>
+</ul>
+</div>
+<div id="sites-visitados" class="section level2">
+<h2>Sites Visitados</h2>
+<p>Não reinventei a roda, portanto, ao longo desse mini-projeto foram visitados diversos sites com diferentes objetivos.</p>
+<div id="host-de-site-no-github" class="section level3">
+<h3>Host de site no Github</h3>
+<p><a href="https://rmarkdown.rstudio.com/rmarkdown_websites.htm" class="uri">https://rmarkdown.rstudio.com/rmarkdown_websites.htm</a></p>
+<p><a href="http://nickstrayer.me/RMarkdown_Sites_tutorial/" class="uri">http://nickstrayer.me/RMarkdown_Sites_tutorial/</a></p>
+<p><a href="https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html" class="uri">https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html</a></p>
+<p><a href="https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5" class="uri">https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5</a></p>
+<p><a href="https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github" class="uri">https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github</a></p>
+<p><a href="https://gist.github.com/TylerFisher/6127328" class="uri">https://gist.github.com/TylerFisher/6127328</a></p>
+</div>
+<div id="dar-um-tapa-no-visual-careta" class="section level3">
+<h3>Dar um tapa no visual careta</h3>
+<p><a href="https://holtzy.github.io/Pimp-my-rmd/" class="uri">https://holtzy.github.io/Pimp-my-rmd/</a></p>
+<p><a href="https://medium.com/@LazaroIbanez/how-to-add-a-favicon-to-github-pages-403935604460" class="uri">https://medium.com/@LazaroIbanez/how-to-add-a-favicon-to-github-pages-403935604460</a></p>
+<p><a href="https://realfavicongenerator.net/favicon_checker?protocol=https&amp;site=andersonuyekita.github.io%2Fsite%2F">https://realfavicongenerator.net/favicon_checker?protocol=https&amp;site=andersonuyekita.github.io%2Fsite%2F</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

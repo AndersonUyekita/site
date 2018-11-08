@@ -14,6 +14,9 @@ navbar:
           href: http://rpubs.com/AndersonUyekita/QJ45141
         - text: "Aurora Dashboard"
           href: http://rpubs.com/AndersonUyekita/QJ45141_dashboard
+          target: blank
+        - text: "Criando um site"
+          href: diy.html        
     - text: "Curriculum Vitae"
       href: cv.html
       icon: fa-address-card
