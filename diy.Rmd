@@ -1,4 +1,5 @@
 ---
+title: "AH Uyekita"
 author: "AH Uyekita"
 date: "28 de outubro de 2018"
 output: html_document
@@ -313,7 +314,7 @@ https://holtzy.github.io/Pimp-my-rmd/
 
 https://medium.com/@LazaroIbanez/how-to-add-a-favicon-to-github-pages-403935604460
 
-https://realfavicongenerator.net/favicon_checker?protocol=https&site=andersonuyekita.github.io%2Fsite%2F
+https://realfavicongenerator.net/
 
 
 

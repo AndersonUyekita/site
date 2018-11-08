@@ -29,3 +29,6 @@ output:
   html_document:
     theme: flatly
     highlight: textmate
+    include:
+      in_header: header.html
+      after_body: footer.html
