@@ -416,13 +416,18 @@ Best Master Franchise Starter
 
 # <i class="far fa-newspaper"></i> Publications
 
-Medium voltage planning tool based on utilities best practices and multi-objective optimization
+* Medium voltage planning tool based on utilities best practices and multi-objective optimization <a href="" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
+
+
+
+
+
 
 Losses Forecast using Econometric Models
 
 MV planning approach using time series, billing data of medium voltage consumers and substation feeders metering
 
-Technical Losses Calculation using Simplified Models for Regulatory Purposes
+Technical Losses Calculation using Simplified Models for Regulatory Purposes <a href="/site/01-Publications/CIRED2015_1197_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
 
 Load modeling based on field survey of electric appliances ownership and consumption habits
 
