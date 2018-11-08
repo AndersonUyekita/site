@@ -418,15 +418,15 @@ Best Master Franchise Starter
 
 * Medium voltage planning tool based on utilities best practices and multi-objective optimization
 
-* Losses Forecast using Econometric Models <a href="/site/01-Publications/CIRED2015_0255_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
+* Losses Forecast using Econometric Models <a href="/site/01-Publications/CIRED2015_0255_final.pdf" target="_blank"><i class="fas fa-book-reader"></i>
 
-* MV planning approach using time series, billing data of medium voltage consumers and substation feeders metering <a href="/site/01-Publications/CIRED2015_0544_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
+* MV planning approach using time series, billing data of medium voltage consumers and substation feeders metering <a href="/site/01-Publications/CIRED2015_0544_final.pdf" target="_blank"><i class="fas fa-book-reader"></i>
 
-* Technical Losses Calculation using Simplified Models for Regulatory Purposes <a href="/site/01-Publications/CIRED2015_1197_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
+* Technical Losses Calculation using Simplified Models for Regulatory Purposes <a href="/site/01-Publications/CIRED2015_1197_final.pdf" target="_blank"><i class="fas fa-book-reader"></i>
 
-* Load modeling based on field survey of electric appliances ownership and consumption habits <a href="/site/01-Publications/CIRED2013_0884_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
+* Load modeling based on field survey of electric appliances ownership and consumption habits <a href="/site/01-Publications/CIRED2013_0884_final.pdf" target="_blank"><i class="fas fa-book-reader"></i>
 
-* Optimized switching using heuristic algorithm to support the restoration of distribution systems <a href="/site/01-Publications/CIRED2013_0879_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
+* Optimized switching using heuristic algorithm to support the restoration of distribution systems <a href="/site/01-Publications/CIRED2013_0879_final.pdf" target="_blank"><i class="fas fa-book-reader"></i>
 
 
 ***
