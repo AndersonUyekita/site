@@ -253,6 +253,8 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
 
 ###### Courses
 
+<!--- Cursos Presenciais na Bovespa e no FIPE --->
+
 <div class = "row">
   
 <div class = "col-md-4">
@@ -265,9 +267,9 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
 <div class = "col-md-8">
 
 * <div class="t20_2">B3</div>
-       * <div class="t20_2">An&aacute;lise T&eacute;cnica para o Mercado de A&ccedil;&otilde;es</div>
-       * <div class="t20_2">Introdu&ccedil;&atilde;o ao Mercado de Renda Fixa</div>
-       * <div class="t20_2">Mercado de A&ccedil;&otilde;es</div>
+       * <div class="t18">An&aacute;lise T&eacute;cnica para o Mercado de A&ccedil;&otilde;es</div>
+       * <div class="t18">Introdu&ccedil;&atilde;o ao Mercado de Renda Fixa</div>
+       * <div class="t18">Mercado de A&ccedil;&otilde;es</div>
        * <a href="http://www.b3.com.br/" target="blank">http://www.b3.com.br/en_us/</a>  
 <br>
 * <div class="t20_2">Funda&ccedil;&atilde;o Instituto de Pesquisas Econ&ocirc;micas - Fipe</div>
@@ -283,28 +285,75 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
 
 ###### MOOCs
 
+<!--- Cursos Coursera --->
 
 <div class = "row">
   
 <div class = "col-md-4">
-<div class="t20">MOOCs  </div>
-<div class="t18">Coursera  </div>
-2009 - 2016
+<div class="t20">Coursera  </div>
+2009 - 2016  
+<a href="http://www.coursera.org" target="_blank">http://www.coursera.org</a>
+
 
 </div>
 
 <div class = "col-md-8">
 
-* <div class="t20_2">Coursera</div>
-       * <div class="t18">Python</div>
-       * <a href="http://www.fipe.org.br" target="blank">http://www.fipe.org.br</a>
-
-
+* <div class="t20_2">Course</div>
+       * <div class="t18">An Introduction to Interactive Programming in Python (Part 2)</div>
+       * <div class="t18">An Introduction to Interactive Programming in Python (Part 1)</div>
+       * <div class="t18">Exploratory Data Analysis</div>
+       * <div class="t18">Reproducible Research</div>
+       * <div class="t18">Statistical Inference</div>
+       * <div class="t18">Getting and Cleaning Data</div>
+       * <div class="t18">R Programming</div>
+       * <div class="t18">The Data Scientist’s Toolbox</div>
 </div>
   
 </div>
 
+<!--- Cursos EdX --->
 
+<div class = "row">
+  
+<div class = "col-md-4">
+<div class="t20">EdX  </div>
+2009 - 2016  
+<a href="https://www.edx.org" target="_blank">https://www.edx.org</a>
+
+</div>
+
+<div class = "col-md-8">
+
+* <div class="t20_2">Course</div>
+       * <div class="t18">Introduction to Project Management</div>
+       * <div class="t18">Inclusive Leadership Training: Get Beyond Work-Life Balance</div>
+       * <div class="t18">Introduction to Computer Science and Programming Using Python</div>
+       * <div class="t18">Explore Statistics with R</div>
+</div>
+  
+</div>
+
+<!--- Cursos DataCamp --->
+
+<div class = "row">
+  
+<div class = "col-md-4">
+<div class="t20">DataCamp  </div>
+2009 - 2016  
+<a href="https://www.datacamp.com" target="_blank">https://www.datacamp.com</a>
+
+</div>
+
+<div class = "col-md-8">
+
+* <div class="t20_2">Course</div>
+       * <div class="t18">Intermediate R</div>
+       * <div class="t18">Reporting with R Markdown</div>
+       * <div class="t18">Introduction to R</div>
+</div>
+  
+</div>
 
 ##### {.end}
 ****
@@ -410,9 +459,9 @@ I was a volunteer, and I worked 20 hours a week.
 
 # <i class="fas fa-trophy"></i> Achievements
 
-Best Master Franchise Starter
+* 5àsec Best Starter
 
-***
+****
 
 # <i class="far fa-newspaper"></i> Publications
 
