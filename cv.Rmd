@@ -240,8 +240,8 @@ I will point out the main fields of my activities in this job:
 Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Prototype.  
 
 <ul class="nav nav-pills">
-  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/blob/master/02-TF/TF1.pdf" target="blank">Read TF1</a></li>
-  <li role="presentation"><a href="https://github.com/AndersonUyekita/AndersonUyekita.github.io/blob/master/02-TF/TF2.pdf" target="blank">Read TF2</a></li>
+  <li role="presentation"><a href="https://github.com/AndersonUyekita/site/02-TF/TF1.pdf" target="blank">Read TF1</a></li>
+  <li role="presentation"><a href="https://github.com/AndersonUyekita/site/02-TF/TF2.pdf" target="blank">Read TF2</a></li>
 </ul>
 
 </div>
@@ -427,7 +427,7 @@ Losses Forecast using Econometric Models
 
 MV planning approach using time series, billing data of medium voltage consumers and substation feeders metering
 
-Technical Losses Calculation using Simplified Models for Regulatory Purposes <a href="/site/01-Publications/CIRED2015_1197_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
+Technical Losses Calculation using Simplified Models for Regulatory Purposes <a href="https://github.com/AndersonUyekita/site/01-Publications/CIRED2015_1197_final.pdf" target="_blank"><button type="button" class="btn btn-primary btn-sm"><i class="fas fa-book-reader"></i></button></a>
 
 Load modeling based on field survey of electric appliances ownership and consumption habits
 
