@@ -14,24 +14,23 @@ knitr::opts_chunk$set(echo = TRUE)
   <hr class="my-4">
   <p>In this place, I host my Curriculum Vitae and some other stuff.</p>
   <p>Feel free to wander around my pages.</p>
-  <br>
   <p>See you!</p>
-  <p>AH Uyekita</p>
+  <p>AH Uyekita</p><br>
   <p class="lead">
     <a class="btn btn-primary btn-lg" href="cv.html" role="button">See my CV</a>
   </p>
 </div>
 <!--/html_preserve-->
 
-<center><h1>What Am I?</h1></center>
+<center><h1>Who Am I?</h1></center>
 
-<div class = "row"><div class = "col-md-8">
+<div class = "row"><div class = "col-md-10">
 
-<p style="text-align: justify;">I am an Electrical Engineer and I passionated in Data Science and Artificial Intelligence since I have started the very famous Data Science Specialization in Coursera. Sadly, I have interrupeted my studies in 2016 to dive in a new area of work, running my own business. After an experience fo two year, I decided to came back to my origins.</p>
+<p style="text-align: justify;">I am an Electrical Engineer and I passionated in Data Science and Artificial Intelligence since I have started the very famous Data Science Specialization in Coursera. Sadly, I have interrupted my studies in 2016 to dive into a new area of work, running my own business. After an experience for two years, I decided to came back to my origins.</p>
 
 </div>
 
-<div class = "row"><div class = "col-md-4">
+<div class = "row"><div class = "col-md-2">
 
 <img src="03-img/profile.jpg" class="img-responsive margin" style="width:100%" alt="Image">
 
@@ -42,34 +41,71 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!--html_preserve-->
 <div class="well">    
-  <h3 class="margin">My Projects</h3><br>
+  <h3 class="margin">Data Science Projects</h3><br>
   <div class="row">
     <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <p class="lead">Investigate a Dataset</p>
+      <p>
+         <span class="label label-warning">Python 3</span>
+         <span class="label label-info">Markdown</span>
+      </p>
+      <p>In this Udacity's project I have performed a Data Wrangling and Data Visualization about the Medical Appointments from Vitória City, Brazil. The dataset is hosted in Kaggle and has almost 100,000 medical records. You can read my conclusion about it reading the nbviewer.</p>
+      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image"/><br>
+      <a href="http://bit.ly/nd110_project_02" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
     <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <p class="lead">Chinook</p>
+      <p>
+         <span class="label label-primary">SQL</span>
+         <span class="label label-info">Markdown</span>
+      </p>
+      <p>This project is about the music preferences of a ficticional company called Chinook, this database is available for anyone to make your own study on <a href="https://github.com/lerocha/chinook-database" target="_blank">Github</a>. All queries used to create graphics and to pose questions are available in the Mode Analytics platform.</p>
+      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <a href="http://bit.ly/nd111_project_01" class="btn btn-primary" target="_blank">Mode Analytics</a>
     </div>
     <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <p class="lead">Wrangle and Analyze Data</p>
+      <p>
+         <span class="label label-success">R</span>
+         <span class="label label-warning">Python 3</span>
+         <span class="label label-info">Markdown</span>
+      </p>
+      <p>The WeRateDogs™ is a Twitter account which gives rating for dogs, I have used the Twitter API to gather information about the tweets made from all users. Later, I have posed some questions and I have answerrd using the available data. The entirely document is available in nbviewer.</p>
+      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <a href="http://bit.ly/nd111_project_02" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
   </div>
-  <br>
+  <hr>
   <div class="row">
     <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <p class="lead">Analyze A/B Test Results</p>
+      <p>
+         <span class="label label-warning">Python 3</span>
+         <span class="label label-info">Markdown</span>
+      </p>      
+      <p>The A/B Testing is a powerful tool to evaluate if a new version has better performance than the older one. In this project, I have made several hypothesis test to assure the better decision making.</p>
+      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <a href="http://bit.ly/nd111_project_03" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
     <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <p class="lead">Building a New Geom</p>
+      <p>
+         <span class="label label-success">R</span>
+         <span class="label label-info">Markdown</span>
+      </p>     
+      <p>This assignment from Coursera aims to create a new "function" to be used to draw a different kind of graphic. The new so-called geom_hurricane will use the ggplot package as bedrock for it advanced geom.</p>
+      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <a href="http://bit.ly/nd111_project_03" class="btn btn-primary" target="_blank">RPubs</a>
     </div>
     <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <p class="lead">Creating an R Package</p>
+      <p>
+         <span class="label label-success">R</span>
+         <span class="label label-info">Markdown</span>
+      </p>        
+      <p>In this project I have created a new package and I have disposaled it in Github, this package also recieve the Travis CI badge which means it could be run in any computer. The package uses the US FARS data (Fatality Analysis Reporting System) to creates summaries.</p>
+      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <a href="http://bit.ly/nd111_project_03" class="btn btn-primary" target="_blank">Github</a>
     </div>
   </div>
 </div>
