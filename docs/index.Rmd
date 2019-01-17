@@ -1,0 +1,76 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br>
+
+<!--html_preserve-->
+<div class="jumbotron">
+  <h1 class="display-3">Hello!</h1>
+  <p class="lead">Welcome to my personal website. I am delighted to see you here visiting my pages.</p>
+  <hr class="my-4">
+  <p>In this place, I host my Curriculum Vitae and some other stuff.</p>
+  <p>Feel free to wander around my pages.</p>
+  <br>
+  <p>See you!</p>
+  <p>AH Uyekita</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="cv.html" role="button">See my CV</a>
+  </p>
+</div>
+<!--/html_preserve-->
+
+<center><h1>What Am I?</h1></center>
+
+<div class = "row"><div class = "col-md-8">
+
+<p style="text-align: justify;">I am an Electrical Engineer and I passionated in Data Science and Artificial Intelligence since I have started the very famous Data Science Specialization in Coursera. Sadly, I have interrupeted my studies in 2016 to dive in a new area of work, running my own business. After an experience fo two year, I decided to came back to my origins.</p>
+
+</div>
+
+<div class = "row"><div class = "col-md-4">
+
+<img src="03-img/profile.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+
+</div>
+</div>
+
+<br>
+
+<!--html_preserve-->
+<div class="well">    
+  <h3 class="margin">My Projects</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+<!--/html_preserve-->

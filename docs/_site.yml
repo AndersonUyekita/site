@@ -10,6 +10,8 @@ navbar:
       href: portfolio.html
       icon: fa-gear
       menu:
+        - text: "Portfolio Overview"
+          href: portfolio.html
         - text: "Aurora Project"
           href: http://rpubs.com/AndersonUyekita/QJ45141
         - text: "Aurora Dashboard"
@@ -27,7 +29,7 @@ navbar:
       href: https://www.linkedin.com/in/andersonuyekita/
 output:
   html_document:
-    theme: flatly
+    css: bootstrap.css
     highlight: textmate
     include:
       in_header: header.html
