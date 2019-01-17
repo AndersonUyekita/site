@@ -50,7 +50,7 @@ knitr::opts_chunk$set(echo = TRUE)
          <span class="label label-info">Markdown</span>
       </p>
       <p>In this Udacity's project I have performed a Data Wrangling and Data Visualization about the Medical Appointments from Vitória City, Brazil. The dataset is hosted in Kaggle and has almost 100,000 medical records. You can read my conclusion about it reading the nbviewer.</p>
-      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image"/><br>
+      <img src="03-img/project_1_1.png" class="img-responsive margin" style="width:100%" alt="Figure_1_1"/><br>
       <a href="http://bit.ly/nd110_project_02" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
     <div class="col-sm-4"> 
@@ -60,7 +60,7 @@ knitr::opts_chunk$set(echo = TRUE)
          <span class="label label-info">Markdown</span>
       </p>
       <p>This project is about the music preferences of a ficticional company called Chinook, this database is available for anyone to make your own study on <a href="https://github.com/lerocha/chinook-database" target="_blank">Github</a>. All queries used to create graphics and to pose questions are available in the Mode Analytics platform.</p>
-      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <img src="03-img/project_1_2.png" class="img-responsive margin" style="width:100%" alt="project_1_2.png"><br>
       <a href="http://bit.ly/nd111_project_01" class="btn btn-primary" target="_blank">Mode Analytics</a>
     </div>
     <div class="col-sm-4"> 
@@ -71,7 +71,7 @@ knitr::opts_chunk$set(echo = TRUE)
          <span class="label label-info">Markdown</span>
       </p>
       <p>The WeRateDogs™ is a Twitter account which gives rating for dogs, I have used the Twitter API to gather information about the tweets made from all users. Later, I have posed some questions and I have answerrd using the available data. The entirely document is available in nbviewer.</p>
-      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <img src="03-img/project_1_3.png" class="img-responsive margin" style="width:100%" alt="project_1_3.png"><br>
       <a href="http://bit.ly/nd111_project_02" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
   </div>
@@ -84,7 +84,7 @@ knitr::opts_chunk$set(echo = TRUE)
          <span class="label label-info">Markdown</span>
       </p>      
       <p>The A/B Testing is a powerful tool to evaluate if a new version has better performance than the older one. In this project, I have made several hypothesis test to assure the better decision making.</p>
-      <img src="03-img/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <img src="03-img/project_2_1.png" class="img-responsive margin" style="width:100%" alt="project_2_1.png"><br>
       <a href="http://bit.ly/nd111_project_03" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
     <div class="col-sm-4"> 
@@ -94,7 +94,7 @@ knitr::opts_chunk$set(echo = TRUE)
          <span class="label label-info">Markdown</span>
       </p>     
       <p>This assignment from Coursera aims to create a new "function" to be used to draw a different kind of graphic. The new so-called geom_hurricane will use the ggplot package as bedrock for it advanced geom.</p>
-      <img src="03-img/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <img src="03-img/project_2_2.png" class="img-responsive margin" style="width:100%" alt="project_2_2.png"><br>
       <a href="http://bit.ly/nd111_project_03" class="btn btn-primary" target="_blank">RPubs</a>
     </div>
     <div class="col-sm-4"> 
@@ -104,7 +104,7 @@ knitr::opts_chunk$set(echo = TRUE)
          <span class="label label-info">Markdown</span>
       </p>        
       <p>In this project I have created a new package and I have disposaled it in Github, this package also recieve the Travis CI badge which means it could be run in any computer. The package uses the US FARS data (Fatality Analysis Reporting System) to creates summaries.</p>
-      <img src="03-img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image"><br>
+      <img src="03-img/project_2_3.png" class="img-responsive margin" style="width:100%" alt="project_2_3.png"><br>
       <a href="http://bit.ly/nd111_project_03" class="btn btn-primary" target="_blank">Github</a>
     </div>
   </div>

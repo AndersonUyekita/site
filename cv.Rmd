@@ -248,8 +248,8 @@ I will point out the main fields of my activities in this job:
 Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Prototype.  
 
 <ul class="nav nav-pills">
-  <li role="presentation"><a href="/site/02-TF/TF1.pdf" target="blank">Read TF1</a></li>
-  <li role="presentation"><a href="/site/02-TF/TF2.pdf" target="blank">Read TF2</a></li>
+  <li role="presentation"><a href="/site/02-TF/TF1.pdf" class="btn btn-default" target="_blank">Read Part 1</a></li>
+  <li role="presentation"><a href="/site/02-TF/TF2.pdf" class="btn btn-default" target="_blank">Read Part 2</a></li>
 </ul>
 
 </div>
@@ -257,9 +257,9 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
 </div>
 
 
-##### {.tabset}
+##### {.tabset .tabset-fade .tabset-pills} 
 
-###### Courses
+###### Courses <span class="badge">8</span>
 
 <!--- Cursos Presenciais na Bovespa e no FIPE --->
 
@@ -291,9 +291,61 @@ Undergraduate Thesis: Development of Offshore Ocean Waves Power Generator Protot
   
 </div>
 
-###### MOOCs
+###### MOOCs <span class="badge">24</span>
 
-<!--- Cursos Coursera --->
+<!--- Cursos Udacity --->
+
+<div class = "row">
+  
+<div class = "col-md-4">
+<div class="t20">Udacity  </div>
+2018 - 2019  
+<a href="http://www.udacity.com" target="_blank">http://www.udacity.com</a>
+
+
+</div>
+
+<div class = "col-md-8">
+
+* <div class="t20_2">Nanodegree</div>
+       * <div class="t18"><a href="http://bit.ly/2AQbbVg" target="_blank">Data Science Foundations I</a></div>
+       * <div class="t18">Data Science Foundations II (in progress)</div>
+       * <div class="t18">Data Scientist (in progress)</div>
+</div>
+  
+</div>
+
+<!--- Cursos Coursera 2018 --->
+
+<div class = "row">
+  
+<div class = "col-md-4">
+<div class="t20">Coursera  </div>
+2018 - 2018  
+<a href="http://www.coursera.org" target="_blank">http://www.coursera.org</a>
+
+</div>
+
+<div class = "col-md-8">
+
+* <div class="t20_2"><a href="https://www.coursera.org/specializations/r" target="_blank">Mastering Software Development in R Specialization</a></div>
+       * <div class="t18"><a href="http://bit.ly/2sw69Zt" target="_blank">The R Programming Environment</a></div>
+       * <div class="t18"><a href="http://bit.ly/2Hh6LfH" target="_blank">Advanced R Programming</a></div>
+       * <div class="t18"><a href="http://bit.ly/2TZ2JdA" target="_blank">Building R Packages</a></div>
+       * <div class="t18"><a href="http://bit.ly/2FGBHUo" target="_blank">Building Data Visualization Tools</a></div>
+       * <div class="t18">Mastering Software Development in R Capstone</div>
+
+* <div class="t20_2"><a href="https://www.coursera.org/specializations/executive-data-science" target="_blank">Executive Data Science Specialization</a></div>
+       * <div class="t18">A Crash Course in Data Science</div>
+       * <div class="t18"><a href="http://bit.ly/2DfmtnE" target="_blank">Building a Data Science Team</a></div>
+       * <div class="t18"><a href="http://bit.ly/2QVzbva" target="_blank">Managing Data Analysis</a></div>
+       * <div class="t18"><a href="http://bit.ly/2TZ3ZNQ" target="_blank">Data Science in Real Life</a></div>
+       * <div class="t18">Executive Data Science Capstone</div>
+
+</div>
+</div>
+
+<!--- Cursos Coursera 2015 --->
 
 <div class = "row">
   
