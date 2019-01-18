@@ -118,10 +118,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 <div>
-<center><h1>Upcoming studies for 2019.</h1></center>
+<center><h2>Upcoming studies for 2019.</h2></center>
 <ul>
-<li><p style="text-align: justify; font-size: 1.3em;">Fishing the Data Science Foundations II;</p></li>
-<li><p style="text-align: justify; font-size: 1.3em;">Start the Data Scientist Nanodegree.</p></li>
+<li><p style="text-align: justify; font-size: 1.3em;">Data Science Foundations II;</p></li>
+<li><p style="text-align: justify; font-size: 1.3em;">Data Scientist Nanodegree.</p></li>
 </ul>
 </div>
 <br>
