@@ -6,7 +6,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 <br>
 
 <!--html_preserve-->
@@ -53,7 +52,7 @@ Now, as a Data Scientist, I am open to a new challenge in my life.</p>
          <span class="label label-warning">Python 3</span>
          <span class="label label-info">Markdown</span>
       </p>
-      <p>In this Udacity's project I have performed a Data Wrangling and Data Visualization about the Medical Appointments from Vitória City, Brazil. The dataset is hosted in Kaggle and has almost 100,000 medical records. You can read my conclusion about it reading the nbviewer.</p>
+      <p>In this Udacity's project, I have performed a Data Wrangling and Data Visualization about the Medical Appointments from Vitória City, Brazil. The dataset is hosted in Kaggle and has almost 100,000 medical records. You can read my conclusion about it reading the nbviewer.</p>
       <img src="03-img/project_1_1.png" class="img-responsive margin" style="width:100%" alt="Figure_1_1"/><br>
       <a href="http://bit.ly/nd110_project_02" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
@@ -63,7 +62,7 @@ Now, as a Data Scientist, I am open to a new challenge in my life.</p>
          <span class="label label-primary">SQL</span>
          <span class="label label-info">Markdown</span>
       </p>
-      <p>This project is about the music preferences of a ficticional company called Chinook, this database is available for anyone to make your own study on <a href="https://github.com/lerocha/chinook-database" target="_blank">Github</a>. All queries used to create graphics and to pose questions are available in the Mode Analytics platform.</p>
+      <p>This project is about the music preferences of a fictional company called Chinook, this database is available on Github for anyone to make your own study. All queries used to create graphics and to pose questions are available in the Mode Analytics platform.</p>
       <img src="03-img/project_1_2.png" class="img-responsive margin" style="width:100%" alt="project_1_2.png"><br>
       <a href="http://bit.ly/nd111_project_01" class="btn btn-primary" target="_blank">Mode Analytics</a>
     </div>
@@ -74,7 +73,7 @@ Now, as a Data Scientist, I am open to a new challenge in my life.</p>
          <span class="label label-warning">Python 3</span>
          <span class="label label-info">Markdown</span>
       </p>
-      <p>The WeRateDogs™ is a Twitter account which gives rating for dogs, I have used the Twitter API to gather information about the tweets made from all users. Later, I have posed some questions and I have answerrd using the available data. The entirely document is available in nbviewer.</p>
+      <p>The WeRateDogs™ is a Twitter account which gives a rating for dogs, I have used the Twitter API to gather information about the tweets made from all users. Later, I have posed some questions and I have answered using the available data. The document is available in nbviewer.</p>
       <img src="03-img/project_1_3.png" class="img-responsive margin" style="width:100%" alt="project_1_3.png"><br>
       <a href="http://bit.ly/nd111_project_02" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
@@ -87,7 +86,7 @@ Now, as a Data Scientist, I am open to a new challenge in my life.</p>
          <span class="label label-warning">Python 3</span>
          <span class="label label-info">Markdown</span>
       </p>      
-      <p>The A/B Testing is a powerful tool to evaluate if a new version has better performance than the older one. In this project, I have made several hypothesis test to assure the better decision making.</p>
+      <p>The A/B Testing is a powerful tool to evaluate if a new version has better performance than the older one. In this project, I have made several hypothesis tests to ensure better decision making. For this specific project, it was convenient to keep the older version of the website.</p>
       <img src="03-img/project_2_1.png" class="img-responsive margin" style="width:100%" alt="project_2_1.png"><br>
       <a href="http://bit.ly/nd111_project_03" class="btn btn-primary" target="_blank">nbviewer</a>
     </div>
@@ -97,7 +96,7 @@ Now, as a Data Scientist, I am open to a new challenge in my life.</p>
          <span class="label label-success">R</span>
          <span class="label label-info">Markdown</span>
       </p>     
-      <p>This assignment from Coursera aims to create a new "function" to be used to draw a different kind of graphic. The new so-called geom_hurricane will use the ggplot package as bedrock for it advanced geom.</p>
+      <p>This assignment from Coursera aims to create a new "function" to be used to draw a different kind of graphic. The new so-called geom_hurricane will use the ggplot package as the bedrock for its advanced geom, which will use to plot wind speed and area covered.</p>
       <img src="03-img/project_2_2.png" class="img-responsive margin" style="width:100%" alt="project_2_2.png"><br>
       <a href="http://bit.ly/2HjiWIS" class="btn btn-primary" target="_blank">RPubs</a>
     </div>
@@ -107,7 +106,7 @@ Now, as a Data Scientist, I am open to a new challenge in my life.</p>
          <span class="label label-success">R</span>
          <span class="label label-info">Markdown</span>
       </p>        
-      <p>In this project I have created a new package and I have disposaled it in Github, this package also recieve the Travis CI badge which means it could be run in any computer. The package uses the US FARS data (Fatality Analysis Reporting System) to creates summaries.</p>
+      <p>In this project, I have created a new package and I have disclosed it in Github, this package also receives the Travis CI badge which means it could be run in any computer. The package uses the US FARS data (Fatality Analysis Reporting System) as input.</p>
       <img src="03-img/project_2_3.png" class="img-responsive margin" style="width:100%" alt="project_2_3.png"><br>
       <a href="http://bit.ly/2VZhXRv" class="btn btn-primary" target="_blank">Github</a>
     </div>
@@ -132,8 +131,6 @@ I have already planned the first six months of 2019:
 * Start the course Machine Learning Engineer in Udacity on June/2019.
 
 </p>
-
-
 
 
 <!--html_preserve-->
