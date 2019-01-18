@@ -27,9 +27,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <div class = "row"><div class = "col-md-10">
 
-<p style="text-align: justify; font-size: 1.1em;">I am an Electrical Engineer and I passionated in Data Science and Artificial Intelligence since I have started the very famous Data Science Specialization in Coursera. Sadly, I have interrupted my studies in 2016 to dive into a new area of work, running my own business. After an experience for two years as an entrepreneur, I decided to came back to my origins.
+<p style="text-align: justify; font-size: 1.2em;">I am an Electrical Engineer and I passionated in Data Science and Artificial Intelligence since I have started the very famous Data Science Specialization in Coursera. Sadly, I have interrupted my studies in 2016 to dive into a new area of work, running my own business. After an experience for two years as an entrepreneur, I decided to came back to my origins.</p>
 
-Now, as a Data Scientist, I am open to a new challenge in my life.</p>
+<p style="text-align: justify; font-size: 1.2em;>Now, as a Data Scientist, I am open to a new challenge in my life.</p>
 
 </div>
 
@@ -116,22 +116,15 @@ Now, as a Data Scientist, I am open to a new challenge in my life.</p>
 </div>
 <!--/html_preserve-->
 
-
-<h3>Upcoming studies! :rocket:</h3>
-
-<p style="text-align: justify; font-size: 1.1em;">
-
-I have already planned the first six months of 2019:
-
-* Fishing the Data Science Foundations II on January/2019;
-* Start and Finish the Data Scientist on February/2019;
-* Finish the last course/capstone of Mastering Software Development on R in March/2019;
-* Finish the last course/capstone of Executive Data Science on March/2019;
-* Start the course Artificial Intelligence in Udacity on April/2019, and;
-* Start the course Machine Learning Engineer in Udacity on June/2019.
-
-</p>
-
+<br>
+<div>
+<center><h1>Upcoming studies for 2019.</h1></center>
+<ul>
+<li><p style="text-align: justify; font-size: 1.3em;">Fishing the Data Science Foundations II;</p></li>
+<li><p style="text-align: justify; font-size: 1.3em;">Start the Data Scientist Nanodegree.</p></li>
+</ul>
+</div>
+<br>
 
 <!--html_preserve-->
 <div class="well">
